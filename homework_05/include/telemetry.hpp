@@ -1,5 +1,4 @@
 #pragma once
-
 // Fixed-size storage keeps the starter close to the topics from block 1.
 const int MAX_TELEMETRY_FRAMES = 128;
 
