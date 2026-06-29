@@ -178,3 +178,10 @@ main). Він:
 Якщо CI червоний локально зібралося, але на CI ні - швидше за все
 devcontainer треба rebuild локально (Dev Containers: Rebuild Container),
 щоб підхопити свіжі версії тулів.
+
+
+
+
+Перед створенням PR запустіть:
+
+./scripts/check-quality.sh

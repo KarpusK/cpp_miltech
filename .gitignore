@@ -2,6 +2,7 @@
 build/
 build-*/
 out/
+homework_06/out/
 
 # CMake генерує ці файли при in-source або ручних локальних збірках.
 CMakeCache.txt
