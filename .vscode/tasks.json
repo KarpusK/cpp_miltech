@@ -3,11 +3,11 @@
   // Тут лишаються тільки базові команди: configure/build і clean.
   "version": "2.0.0",
   "tasks": [
-    {
-      "label": "quality",
-      "type": "shell",
-      "command": "./scripts/check_quality.sh"
-    },
+    // {
+    //   "label": "quality",
+    //   "type": "shell",
+    //   "command": "./scripts/check_quality.sh"
+    // },
     {
       // Default build task: Ctrl+Shift+B запускає debug preset, потім build.
       "label": "CMake: configure and build",
