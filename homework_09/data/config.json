@@ -1,0 +1,21 @@
+{
+  "Drone": {
+    "startPos": {
+      "x": 150,
+      "y": 150,
+      "z": 100
+    },
+    "altitude": 100.0,
+    "initialDirection": 0.0,
+    "attackSpeed": 15.0,
+    "accelerationPath": 50.0,
+    "angularSpeed": 0.5,
+    "turnThreshold": 0.05,
+    "ammoName": "VOG-17",
+    "simulation": {
+      "timeStep": 0.1,
+      "hitRadius": 2.0
+    },
+    "targetArrayTimeStep": 1.0
+  }
+}
