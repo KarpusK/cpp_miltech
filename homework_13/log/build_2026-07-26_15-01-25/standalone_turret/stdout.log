@@ -1,0 +1,12 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret
+[ 50%] [32mBuilding CXX object CMakeFiles/standalone_turret.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable standalone_turret[0m
+[100%] Built target standalone_turret

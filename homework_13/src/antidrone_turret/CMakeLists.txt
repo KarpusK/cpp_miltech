@@ -28,13 +28,11 @@ ament_auto_add_executable(turret_controller_node src/turret_controller_node.cpp)
 ament_auto_add_executable(gimbal_driver_node src/gimbal_driver_node.cpp)
 ament_auto_add_executable(yaw_servo_driver_node src/yaw_servo_driver_node.cpp)
 
-add_executable(turret_standalone src/main.cpp)
 target_include_directories(target_track_publisher_node PRIVATE include)
 target_include_directories(actuator_node PRIVATE include)
 target_include_directories(turret_controller_node PRIVATE include)
 target_include_directories(gimbal_driver_node PRIVATE include)
 target_include_directories(yaw_servo_driver_node PRIVATE include)
-target_include_directories(turret_standalone PRIVATE include)
 
 rosidl_get_typesupport_target(cpp_typesupport_target
   ${PROJECT_NAME}
@@ -57,6 +55,16 @@ if(BUILD_TESTING)
   target_compile_definitions(provided_logic_test
     PRIVATE ANTIDRONE_TURRET_SOURCE_DIR="${CMAKE_CURRENT_SOURCE_DIR}"
   )
+
+  ament_add_gtest(target_decision_test
+    test/target_decision_test.cpp
+  )
+  target_include_directories(target_decision_test PRIVATE include)
+
+  ament_add_gtest(target_track_edge_test
+    test/target_track_edge_test.cpp
+  )
+  target_include_directories(target_track_edge_test PRIVATE include)
 endif()
 
 ament_export_dependencies(rosidl_default_runtime)

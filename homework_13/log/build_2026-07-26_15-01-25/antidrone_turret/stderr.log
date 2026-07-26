@@ -1,0 +1,30 @@
+[31mCMake Error at CMakeLists.txt:31 (add_executable):
+  Cannot find source file:
+
+    src/main.cpp
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  Cannot find source file:
+
+    src/target_decision.cpp
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:64 (ament_add_gtest)
+
+[0m
+[31mCMake Error at CMakeLists.txt:31 (add_executable):
+  No SOURCES given to target: turret_standalone
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+  No SOURCES given to target: target_decision_test
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+  CMakeLists.txt:64 (ament_add_gtest)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:2115: cmake_check_build_system] Error 1
