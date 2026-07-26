@@ -1,0 +1,466 @@
+[0.058s] Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret
+[0.337s] -- The C compiler identification is GNU 11.4.0
+[0.590s] -- The CXX compiler identification is GNU 11.4.0
+[0.682s] -- Detecting C compiler ABI info
+[1.089s] -- Detecting C compiler ABI info - done
+[1.111s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.113s] -- Detecting C compile features
+[1.115s] -- Detecting C compile features - done
+[1.151s] -- Detecting CXX compiler ABI info
+[1.532s] -- Detecting CXX compiler ABI info - done
+[1.551s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.553s] -- Detecting CXX compile features
+[1.555s] -- Detecting CXX compile features - done
+[1.596s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.735s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.001s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.009s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.219s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.223s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.649s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.058s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.769s] -- Looking for pthread.h
+[4.138s] -- Looking for pthread.h - found
+[4.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.514s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.518s] -- Found Threads: TRUE  
+[5.487s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.915s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.953s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.954s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.055s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.058s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.059s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.073s] -- Found PythonExtra: .so  
+[9.143s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.805s] -- Configuring done
+[12.054s] -- Generating done
+[12.988s] -- Build files have been written to: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret
+[13.001s] Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret
+[13.009s] Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret -- -j12 -l12
+[13.212s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.247s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.250s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[13.264s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[13.284s] [  4%] Built target ament_cmake_python_copy_antidrone_turret
+[13.310s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.707s] running egg_info
+[13.710s] creating antidrone_turret.egg-info
+[13.713s] writing antidrone_turret.egg-info/PKG-INFO
+[13.720s] writing dependency_links to antidrone_turret.egg-info/dependency_links.txt
+[13.728s] writing top-level names to antidrone_turret.egg-info/top_level.txt
+[13.736s] writing manifest file 'antidrone_turret.egg-info/SOURCES.txt'
+[13.757s] reading manifest file 'antidrone_turret.egg-info/SOURCES.txt'
+[13.786s] writing manifest file 'antidrone_turret.egg-info/SOURCES.txt'
+[13.847s] [  5%] Built target ament_cmake_python_build_antidrone_turret_egg
+[13.986s] [  5%] Built target antidrone_turret__rs
+[14.629s] [  5%] Built target antidrone_turret__cpp
+[14.676s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.679s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.691s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.793s] [ 10%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/target__functions.c.o[0m
+[14.811s] [ 11%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/actuator_status__functions.c.o[0m
+[14.820s] [ 13%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/servo_command__functions.c.o[0m
+[14.824s] [ 13%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/gimbal_command__functions.c.o[0m
+[14.844s] [ 14%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/turret_status__functions.c.o[0m
+[14.856s] [ 15%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/srv/detail/trigger_actuator__functions.c.o[0m
+[15.102s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.105s] [ 18%] [32m[1mLinking C shared library libantidrone_turret__rosidl_generator_c.so[0m
+[15.231s] [ 18%] Built target gtest_main
+[15.436s] [ 18%] Built target antidrone_turret__rosidl_generator_c
+[15.493s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.497s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.499s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.574s] [ 22%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/target__type_support.cpp.o[0m
+[15.586s] [ 23%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/actuator_status__type_support.cpp.o[0m
+[15.591s] [ 25%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/servo_command__type_support.cpp.o[0m
+[15.600s] [ 26%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/gimbal_command__type_support.cpp.o[0m
+[15.614s] [ 27%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/turret_status__type_support.cpp.o[0m
+[15.625s] [ 28%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/srv/trigger_actuator__type_support.cpp.o[0m
+[16.224s] [ 29%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/target__type_support.cpp.o[0m
+[16.373s] [ 30%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/actuator_status__type_support.cpp.o[0m
+[16.399s] [ 31%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/servo_command__type_support.cpp.o[0m
+[16.413s] [ 32%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/gimbal_command__type_support.cpp.o[0m
+[16.427s] [ 34%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/turret_status__type_support.cpp.o[0m
+[16.445s] [ 35%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/srv/detail/trigger_actuator__type_support.cpp.o[0m
+[16.498s] [ 36%] [32m[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_cpp.so[0m
+[16.535s] [ 37%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[16.764s] [ 38%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/target__type_support.cpp.o[0m
+[17.037s] [ 38%] Built target antidrone_turret__rosidl_typesupport_cpp
+[17.049s] [ 39%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/actuator_status__type_support.cpp.o[0m
+[17.065s] [ 40%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/servo_command__type_support.cpp.o[0m
+[17.268s] [ 42%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/gimbal_command__type_support.cpp.o[0m
+[17.351s] [ 43%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/target__type_support.c.o[0m
+[17.382s] [ 44%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/target__type_support_c.cpp.o[0m
+[17.391s] [ 45%] [32mBuilding CXX object CMakeFiles/target_track_publisher_node.dir/src/target_track_publisher_node.cpp.o[0m
+[17.537s] [ 46%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/turret_status__type_support.cpp.o[0m
+[17.595s] [ 47%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/srv/trigger_actuator__type_support.cpp.o[0m
+[17.647s] [ 50%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/actuator_status__type_support.cpp.o[0m
+[17.653s] [ 50%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/actuator_status__type_support.c.o[0m
+[17.667s] [ 51%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/actuator_status__type_support_c.cpp.o[0m
+[17.778s] [ 52%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/servo_command__type_support.cpp.o[0m
+[17.817s] [ 54%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/servo_command__type_support_c.cpp.o[0m
+[17.821s] [ 54%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/gimbal_command__type_support.cpp.o[0m
+[17.827s] [ 55%] [32m[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_introspection_cpp.so[0m
+[17.868s] [ 56%] [32m[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_c.so[0m
+[18.081s] [ 57%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/servo_command__type_support.c.o[0m
+[18.109s] [ 59%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/gimbal_command__type_support.c.o[0m
+[18.396s] [ 59%] Built target antidrone_turret__rosidl_typesupport_c
+[18.432s] [ 60%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/turret_status__type_support.c.o[0m
+[18.490s] [ 60%] Built target antidrone_turret__rosidl_typesupport_introspection_cpp
+[18.520s] [ 61%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/srv/detail/trigger_actuator__type_support.c.o[0m
+[18.559s] [ 62%] [32mBuilding CXX object CMakeFiles/actuator_node.dir/src/actuator_node.cpp.o[0m
+[18.581s] [ 63%] [32mBuilding CXX object CMakeFiles/turret_controller_node.dir/src/turret_controller_node.cpp.o[0m
+[18.678s] [ 64%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/gimbal_command__type_support_c.cpp.o[0m
+[18.846s] [ 65%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/turret_status__type_support_c.cpp.o[0m
+[18.964s] [ 67%] [32m[1mLinking C shared library libantidrone_turret__rosidl_typesupport_introspection_c.so[0m
+[19.071s] [ 68%] [32mBuilding CXX object CMakeFiles/gimbal_driver_node.dir/src/gimbal_driver_node.cpp.o[0m
+[19.136s] [ 69%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/turret_status__type_support.cpp.o[0m
+[19.191s] [ 70%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/srv/detail/dds_fastrtps/trigger_actuator__type_support.cpp.o[0m
+[19.240s] [ 71%] [32mBuilding CXX object CMakeFiles/yaw_servo_driver_node.dir/src/yaw_servo_driver_node.cpp.o[0m
+[19.298s] [ 72%] [32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/srv/detail/trigger_actuator__type_support_c.cpp.o[0m
+[19.550s] [ 72%] Built target antidrone_turret__rosidl_typesupport_introspection_c
+[20.543s] [ 73%] [32m[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.623s] [ 75%] [32m[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_fastrtps_c.so[0m
+[20.809s] [ 76%] [32m[1mLinking CXX static library libgtest.a[0m
+[21.122s] [ 76%] Built target antidrone_turret__rosidl_typesupport_fastrtps_cpp
+[21.177s] [ 76%] Built target antidrone_turret__rosidl_typesupport_fastrtps_c
+[21.264s] [ 76%] Built target antidrone_turret
+[21.407s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.879s] [ 77%] Built target gtest
+[22.966s] [ 78%] [32mBuilding CXX object CMakeFiles/provided_logic_test.dir/test/provided_logic_test.cpp.o[0m
+[23.334s] [ 78%] Built target antidrone_turret__py
+[23.471s] [ 79%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_target_s.c.o[0m
+[23.477s] [ 80%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_actuator_status_s.c.o[0m
+[23.487s] [ 82%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_gimbal_command_s.c.o[0m
+[23.491s] [ 84%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_servo_command_s.c.o[0m
+[23.499s] [ 84%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_turret_status_s.c.o[0m
+[23.525s] [ 85%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/srv/_trigger_actuator_s.c.o[0m
+[24.101s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/antidrone_turret/libantidrone_turret__rosidl_generator_py.so[0m
+[24.480s] [ 86%] Built target antidrone_turret__rosidl_generator_py
+[24.596s] [ 89%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_c.c.o[0m
+[24.601s] [ 89%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.605s] [ 89%] [32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.157s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.245s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.252s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.407s] [ 93%] Built target antidrone_turret__rosidl_typesupport_c__pyext
+[25.449s] [ 93%] Built target antidrone_turret__rosidl_typesupport_introspection_c__pyext
+[25.457s] [ 93%] Built target antidrone_turret__rosidl_typesupport_fastrtps_c__pyext
+[27.026s] [ 94%] [32m[1mLinking CXX executable provided_logic_test[0m
+[29.173s] [ 94%] Built target provided_logic_test
+[30.400s] [ 95%] [32m[1mLinking CXX executable actuator_node[0m
+[32.704s] [ 95%] Built target actuator_node
+[35.811s] [ 96%] [32m[1mLinking CXX executable gimbal_driver_node[0m
+[35.929s] [ 97%] [32m[1mLinking CXX executable yaw_servo_driver_node[0m
+[36.987s] [ 98%] [32m[1mLinking CXX executable target_track_publisher_node[0m
+[37.292s] [100%] [32m[1mLinking CXX executable turret_controller_node[0m
+[40.952s] [100%] Built target gimbal_driver_node
+[41.044s] [100%] Built target yaw_servo_driver_node
+[42.444s] [100%] Built target target_track_publisher_node
+[42.820s] [100%] Built target turret_controller_node
+[43.061s] Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret -- -j12 -l12
+[43.084s] Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret
+[43.094s] -- Install configuration: ""
+[43.119s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/rosidl_interfaces/antidrone_turret
+[43.172s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[43.190s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg
+[43.214s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/actuator_status.h
+[43.266s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail
+[43.297s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__functions.c
+[43.361s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__functions.h
+[43.424s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__struct.h
+[43.496s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.h
+[43.558s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__functions.c
+[43.620s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__functions.h
+[43.693s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__struct.h
+[43.779s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.h
+[43.861s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__functions.c
+[43.932s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__functions.h
+[44.002s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__struct.h
+[44.069s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.h
+[44.137s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__functions.c
+[44.201s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__functions.h
+[44.270s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__struct.h
+[44.343s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.h
+[44.405s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__functions.c
+[44.470s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__functions.h
+[44.535s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__struct.h
+[44.598s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.h
+[44.659s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/gimbal_command.h
+[44.717s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_generator_c__visibility_control.h
+[44.785s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/servo_command.h
+[44.844s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/target.h
+[44.906s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/turret_status.h
+[44.962s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv
+[44.985s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail
+[45.016s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__functions.c
+[45.084s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__functions.h
+[45.151s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__struct.h
+[45.225s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.h
+[45.290s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/trigger_actuator.h
+[45.346s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/library_path.sh
+[45.387s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/library_path.dsv
+[45.431s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_c.so
+[45.496s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_c.so" to ""
+[45.504s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[45.521s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg
+[45.541s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail
+[45.568s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_fastrtps_c.h
+[45.632s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_fastrtps_c.h
+[45.694s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_fastrtps_c.h
+[45.764s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[45.831s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_fastrtps_c.h
+[45.894s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[45.951s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv
+[45.970s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail
+[45.994s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_fastrtps_c.h
+[46.062s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_c.so
+[46.138s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_c.so" to ""
+[46.146s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[46.163s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg
+[46.184s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail
+[46.210s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_introspection_c.h
+[46.272s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.c
+[46.345s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_introspection_c.h
+[46.416s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.c
+[46.481s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_introspection_c.h
+[46.545s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.c
+[46.613s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_introspection_c.h
+[46.678s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.c
+[46.744s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_introspection_c.h
+[46.806s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.c
+[46.867s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.919s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv
+[46.939s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail
+[46.963s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_introspection_c.h
+[47.030s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.c
+[47.093s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_c.so
+[47.161s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_c.so" to ""
+[47.171s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_c.so
+[47.227s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_c.so" to ""
+[47.234s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[47.249s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg
+[47.267s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/actuator_status.hpp
+[47.325s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail
+[47.349s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__builder.hpp
+[47.433s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__struct.hpp
+[47.508s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__traits.hpp
+[47.570s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.hpp
+[47.634s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__builder.hpp
+[47.697s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__struct.hpp
+[47.779s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__traits.hpp
+[47.847s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.hpp
+[47.911s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__builder.hpp
+[47.978s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__struct.hpp
+[48.045s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__traits.hpp
+[48.108s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.hpp
+[48.168s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__builder.hpp
+[48.229s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__struct.hpp
+[48.292s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__traits.hpp
+[48.355s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.hpp
+[48.419s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__builder.hpp
+[48.481s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__struct.hpp
+[48.548s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__traits.hpp
+[48.616s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.hpp
+[48.680s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/gimbal_command.hpp
+[48.740s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_generator_cpp__visibility_control.hpp
+[48.798s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/servo_command.hpp
+[48.856s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/target.hpp
+[48.915s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/turret_status.hpp
+[48.967s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv
+[48.984s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail
+[49.008s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__builder.hpp
+[49.073s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__struct.hpp
+[49.141s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__traits.hpp
+[49.206s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.hpp
+[49.270s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/trigger_actuator.hpp
+[49.322s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[49.337s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg
+[49.356s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail
+[49.378s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.439s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/dds_fastrtps
+[49.472s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_fastrtps_cpp.hpp
+[49.535s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_fastrtps_cpp.hpp
+[49.603s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[49.677s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_fastrtps_cpp.hpp
+[49.744s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[49.802s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv
+[49.823s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail
+[49.846s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/dds_fastrtps
+[49.881s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_fastrtps_cpp.hpp
+[49.943s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_cpp.so
+[50.010s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_cpp.so" to ""
+[50.018s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[50.033s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg
+[50.053s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail
+[50.081s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_introspection_cpp.hpp
+[50.167s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.cpp
+[50.236s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_introspection_cpp.hpp
+[50.300s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.cpp
+[50.363s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_introspection_cpp.hpp
+[50.427s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.cpp
+[50.490s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[50.553s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.cpp
+[50.617s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_introspection_cpp.hpp
+[50.680s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.cpp
+[50.744s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv
+[50.763s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail
+[50.787s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_introspection_cpp.hpp
+[50.852s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.cpp
+[50.911s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_cpp.so
+[50.971s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_cpp.so" to ""
+[50.981s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_cpp.so
+[51.044s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_cpp.so" to ""
+[51.056s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/pythonpath.sh
+[51.103s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/pythonpath.dsv
+[51.147s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info
+[51.176s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/dependency_links.txt
+[51.244s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/PKG-INFO
+[51.307s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/SOURCES.txt
+[51.368s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/top_level.txt
+[51.427s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret
+[51.457s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[51.535s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[51.605s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[51.690s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/libantidrone_turret__rosidl_generator_py.so
+[51.771s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg
+[51.809s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_actuator_status.py
+[51.886s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_actuator_status_s.c
+[51.957s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_gimbal_command.py
+[52.025s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_gimbal_command_s.c
+[52.095s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_servo_command.py
+[52.162s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_servo_command_s.c
+[52.230s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_target.py
+[52.297s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_target_s.c
+[52.366s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_turret_status.py
+[52.432s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_turret_status_s.c
+[52.496s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/__init__.py
+[52.557s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv
+[52.588s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/_trigger_actuator.py
+[52.652s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/_trigger_actuator_s.c
+[52.715s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/__init__.py
+[52.778s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_c.c
+[52.841s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_fastrtps_c.c
+[52.904s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_introspection_c.c
+[52.969s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/__init__.py
+[53.520s] Listing '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret'...
+[53.522s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/__init__.py'...
+[53.523s] Listing '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg'...
+[53.524s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/__init__.py'...
+[53.526s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_actuator_status.py'...
+[53.528s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_gimbal_command.py'...
+[53.529s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_servo_command.py'...
+[53.531s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_target.py'...
+[53.532s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_turret_status.py'...
+[53.533s] Listing '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv'...
+[53.535s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/__init__.py'...
+[53.536s] Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/_trigger_actuator.py'...
+[53.569s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[53.658s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.699s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[53.800s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.850s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[53.946s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.959s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_py.so
+[54.036s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_py.so" to ""
+[54.067s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/rust_packages/antidrone_turret
+[54.119s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust
+[54.142s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/build.rs
+[54.191s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/Cargo.toml
+[54.238s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src
+[54.264s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/lib.rs
+[54.317s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/msg
+[54.348s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/msg/rmw.rs
+[54.413s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/msg.rs
+[54.470s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/srv
+[54.501s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/srv/rmw.rs
+[54.597s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/srv.rs
+[54.669s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/Target.idl
+[54.722s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ActuatorStatus.idl
+[54.774s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ServoCommand.idl
+[54.827s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/GimbalCommand.idl
+[54.878s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/TurretStatus.idl
+[54.936s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator.idl
+[54.985s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/Target.msg
+[55.030s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ActuatorStatus.msg
+[55.077s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ServoCommand.msg
+[55.121s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/GimbalCommand.msg
+[55.174s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/TurretStatus.msg
+[55.225s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator.srv
+[55.276s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator_Request.msg
+[55.328s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator_Response.msg
+[55.375s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret
+[55.387s] -- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret
+[55.403s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/actuator_model.hpp
+[55.449s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/gimbal_driver.hpp
+[55.494s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_decision.hpp
+[55.539s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_sequence.hpp
+[55.586s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_track_loader.hpp
+[55.632s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_track_simulation.hpp
+[55.678s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/turret_controller.hpp
+[55.726s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/yaw_servo_driver.hpp
+[55.781s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/target_track_publisher_node
+[56.167s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/target_track_publisher_node" to ""
+[56.179s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/actuator_node
+[56.363s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/actuator_node" to ""
+[56.375s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/turret_controller_node
+[56.761s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/turret_controller_node" to ""
+[56.773s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/gimbal_driver_node
+[57.110s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/gimbal_driver_node" to ""
+[57.122s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/yaw_servo_driver_node
+[57.461s] -- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/yaw_servo_driver_node" to ""
+[57.466s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/launch
+[57.483s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/launch/system.launch.py
+[57.524s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/config
+[57.541s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/config/sequence.yaml
+[57.581s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks
+[57.598s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/approach_trigger.csv
+[57.641s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/far_flyby_no_trigger.csv
+[57.683s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/low_confidence_no_trigger.csv
+[57.726s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/reload_pressure.csv
+[57.788s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/package_run_dependencies/antidrone_turret
+[57.864s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/parent_prefix_path/antidrone_turret
+[57.922s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/ament_prefix_path.sh
+[57.966s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/ament_prefix_path.dsv
+[58.011s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/path.sh
+[58.052s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/path.dsv
+[58.096s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.bash
+[58.135s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.sh
+[58.174s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.zsh
+[58.212s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.dsv
+[58.251s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.dsv
+[58.305s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/packages/antidrone_turret
+[58.376s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_cExport.cmake
+[58.439s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_cExport-noconfig.cmake
+[58.500s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cExport.cmake
+[58.561s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[58.621s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cExport.cmake
+[58.679s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[58.739s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cExport.cmake
+[58.800s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cExport-noconfig.cmake
+[58.859s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_cppExport.cmake
+[58.919s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cppExport.cmake
+[58.981s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[59.052s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cppExport.cmake
+[59.110s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[59.171s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cppExport.cmake
+[59.235s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cppExport-noconfig.cmake
+[59.297s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_pyExport.cmake
+[59.356s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_pyExport-noconfig.cmake
+[59.411s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake-extras.cmake
+[59.456s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.502s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_libraries-extras.cmake
+[59.547s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_targets-extras.cmake
+[59.596s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[59.640s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.687s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[59.732s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[59.778s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turretConfig.cmake
+[59.820s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turretConfig-version.cmake
+[59.864s] -- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.xml
+[59.899s] Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret

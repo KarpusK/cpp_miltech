@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from antidrone_turret/msg/ServoCommand.msg
+// generated code does not contain a copyright notice
+
+
+module antidrone_turret {
+  module msg {
+    module ServoCommand_Constants {
+      const int8 LEFT = -1;
+      const int8 CENTER = 0;
+      const int8 RIGHT = 1;
+    };
+    struct ServoCommand {
+      int8 direction;
+
+      float target_x;
+
+      float error_x;
+    };
+  };
+};
