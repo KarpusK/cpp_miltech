@@ -1,0 +1,14 @@
+msg/ActuatorStatus.idl
+msg/ActuatorStatus.msg
+msg/GimbalCommand.idl
+msg/GimbalCommand.msg
+msg/ServoCommand.idl
+msg/ServoCommand.msg
+msg/Target.idl
+msg/Target.msg
+msg/TurretStatus.idl
+msg/TurretStatus.msg
+srv/TriggerActuator.idl
+srv/TriggerActuator.srv
+srv/TriggerActuator_Request.msg
+srv/TriggerActuator_Response.msg

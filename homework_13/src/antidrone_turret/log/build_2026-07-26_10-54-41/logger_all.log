@@ -1,0 +1,115 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7551344495a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x755134449030>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x755134449030>>, mixin_verb=('build',))
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.554s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'antidrone_turret'
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.578s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.626s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.629s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'cmake_target' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'cmake_clean_cache' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'cmake_clean_first' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'cmake_force_configure' from command line to 'False'
+[0.702s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'ament_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'catkin_cmake_args' from command line to 'None'
+[0.703s] Level 5:colcon.colcon_core.verb:set package 'antidrone_turret' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.704s] DEBUG:colcon.colcon_core.verb:Building package 'antidrone_turret' with the following arguments: {'ament_cmake_args': None, 'build_base': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret', 'merge_install': False, 'path': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret', 'symlink_install': False, 'test_result_base': None}
+[0.704s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.706s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.707s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret' with build type 'ament_cmake'
+[0.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret'
+[0.713s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret
+[16.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret
+[16.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret -- -j12 -l12
+[48.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret -- -j12 -l12
+[49.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret
+[65.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(antidrone_turret)
+[65.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret
+[65.831s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret' for CMake module files
+[65.997s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret' for CMake config files
+[66.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('antidrone_turret', 'cmake_prefix_path')
+[66.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/cmake_prefix_path.ps1'
+[66.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/cmake_prefix_path.dsv'
+[66.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/cmake_prefix_path.sh'
+[66.198s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib'
+[66.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('antidrone_turret', 'ld_library_path_lib')
+[66.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/ld_library_path_lib.ps1'
+[66.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/ld_library_path_lib.dsv'
+[66.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/ld_library_path_lib.sh'
+[66.233s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/bin'
+[66.234s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/pkgconfig/antidrone_turret.pc'
+[66.236s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/python3.10/site-packages'
+[66.239s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/bin'
+[66.241s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.ps1'
+[66.249s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.dsv'
+[66.260s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.sh'
+[66.273s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.bash'
+[66.284s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.zsh'
+[66.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/colcon-core/packages/antidrone_turret)
+[66.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(antidrone_turret)
+[66.315s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret' for CMake module files
+[66.481s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret' for CMake config files
+[66.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('antidrone_turret', 'cmake_prefix_path')
+[66.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/cmake_prefix_path.ps1'
+[66.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/cmake_prefix_path.dsv'
+[66.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/cmake_prefix_path.sh'
+[66.660s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib'
+[66.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('antidrone_turret', 'ld_library_path_lib')
+[66.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/ld_library_path_lib.ps1'
+[66.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/ld_library_path_lib.dsv'
+[66.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/hook/ld_library_path_lib.sh'
+[66.694s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/bin'
+[66.696s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/pkgconfig/antidrone_turret.pc'
+[66.698s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/python3.10/site-packages'
+[66.700s] Level 1:colcon.colcon_core.environment:checking '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/bin'
+[66.701s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.ps1'
+[66.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.dsv'
+[66.719s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.sh'
+[66.729s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.bash'
+[66.738s] INFO:colcon.colcon_core.shell:Creating package script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.zsh'
+[66.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/colcon-core/packages/antidrone_turret)
+[66.754s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[66.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[66.755s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[66.756s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[66.791s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[66.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[66.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[66.793s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[66.793s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[66.794s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[66.794s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/local_setup.ps1'
+[66.798s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/_local_setup_util_ps1.py'
+[66.804s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/setup.ps1'
+[66.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/local_setup.sh'
+[66.814s] INFO:colcon.colcon_core.shell:Creating prefix util module '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/_local_setup_util_sh.py'
+[66.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/setup.sh'
+[66.827s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/local_setup.bash'
+[66.833s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/setup.bash'
+[66.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/local_setup.zsh'
+[66.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/setup.zsh'

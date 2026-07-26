@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from antidrone_turret/msg/GimbalCommand.msg
+// generated code does not contain a copyright notice
+
+
+module antidrone_turret {
+  module msg {
+    module GimbalCommand_Constants {
+      const int8 DOWN = -1;
+      const int8 CENTER = 0;
+      const int8 UP = 1;
+    };
+    struct GimbalCommand {
+      int8 direction;
+
+      float target_y;
+
+      float error_y;
+    };
+  };
+};

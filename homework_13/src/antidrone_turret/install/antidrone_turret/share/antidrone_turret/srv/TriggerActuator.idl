@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from antidrone_turret/srv/TriggerActuator.srv
+// generated code does not contain a copyright notice
+
+
+module antidrone_turret {
+  module srv {
+    struct TriggerActuator_Request {
+      float confidence;
+
+      float distance_m;
+    };
+    struct TriggerActuator_Response {
+      boolean accepted;
+
+      uint32 trigger_count;
+    };
+  };
+};

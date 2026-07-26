@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from antidrone_turret/msg/TurretStatus.msg
+// generated code does not contain a copyright notice
+
+
+module antidrone_turret {
+  module msg {
+    module TurretStatus_Constants {
+      const uint8 TARGET_NONE = 0;
+      const uint8 TARGET_LOW_CONFIDENCE = 1;
+      const uint8 TARGET_LOCKED = 2;
+      const uint8 ACTION_IDLE = 0;
+      const uint8 ACTION_TRACK = 1;
+      const uint8 TRIGGER_SKIP = 0;
+      const uint8 TRIGGER_REQUESTED = 1;
+      const uint8 TRIGGER_RELOADING = 2;
+    };
+    struct TurretStatus {
+      uint8 target_state;
+
+      uint8 action;
+
+      uint8 trigger_state;
+
+      float confidence;
+
+      float distance_m;
+    };
+  };
+};

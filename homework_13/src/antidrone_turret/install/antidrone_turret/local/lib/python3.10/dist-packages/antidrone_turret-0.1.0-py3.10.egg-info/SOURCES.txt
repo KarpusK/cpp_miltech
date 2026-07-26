@@ -1,0 +1,6 @@
+setup.py
+antidrone_turret/__init__.py
+antidrone_turret.egg-info/PKG-INFO
+antidrone_turret.egg-info/SOURCES.txt
+antidrone_turret.egg-info/dependency_links.txt
+antidrone_turret.egg-info/top_level.txt

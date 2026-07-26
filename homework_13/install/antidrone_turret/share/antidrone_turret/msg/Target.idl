@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from antidrone_turret/msg/Target.msg
+// generated code does not contain a copyright notice
+
+
+module antidrone_turret {
+  module msg {
+    struct Target {
+      boolean visible;
+
+      float x;
+
+      float y;
+
+      float distance_m;
+
+      float confidence;
+    };
+  };
+};

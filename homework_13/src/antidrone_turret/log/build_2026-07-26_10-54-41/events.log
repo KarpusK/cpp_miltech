@@ -1,0 +1,1077 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (antidrone_turret) JobQueued: {'identifier': 'antidrone_turret', 'dependencies': OrderedDict()}
+[0.000958] (antidrone_turret) JobStarted: {'identifier': 'antidrone_turret'}
+[0.025911] (antidrone_turret) JobProgress: {'identifier': 'antidrone_turret', 'progress': 'cmake'}
+[0.049878] (antidrone_turret) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret'], 'cwd': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karpus'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/karpus'), ('OLDPWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karpus'), ('NAME', 'LenovoBobik'), ('WSL_INTEROP', '/run/WSL/17779_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/nikig/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nikig/AppData/Local/Programs/Microsoft VS Code/bin'), ('WT_SESSION', '77816cc7-fca8-4120-b62e-ef13e72d9f7a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098545] (-) TimerEvent: {}
+[0.199138] (-) TimerEvent: {}
+[0.299977] (-) TimerEvent: {}
+[0.337533] (antidrone_turret) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.400110] (-) TimerEvent: {}
+[0.500947] (-) TimerEvent: {}
+[0.589825] (antidrone_turret) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.601045] (-) TimerEvent: {}
+[0.682029] (antidrone_turret) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.701151] (-) TimerEvent: {}
+[0.802064] (-) TimerEvent: {}
+[0.902798] (-) TimerEvent: {}
+[1.003394] (-) TimerEvent: {}
+[1.088882] (antidrone_turret) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.103475] (-) TimerEvent: {}
+[1.110362] (antidrone_turret) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.112786] (antidrone_turret) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.115191] (antidrone_turret) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.150912] (antidrone_turret) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.203616] (-) TimerEvent: {}
+[1.304682] (-) TimerEvent: {}
+[1.405416] (-) TimerEvent: {}
+[1.506075] (-) TimerEvent: {}
+[1.532539] (antidrone_turret) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.551717] (antidrone_turret) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.553271] (antidrone_turret) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.554760] (antidrone_turret) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.596166] (antidrone_turret) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.606188] (-) TimerEvent: {}
+[1.706867] (-) TimerEvent: {}
+[1.735303] (antidrone_turret) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.806957] (-) TimerEvent: {}
+[1.907673] (-) TimerEvent: {}
+[2.001509] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.007737] (-) TimerEvent: {}
+[2.008767] (antidrone_turret) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.097879] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.107841] (-) TimerEvent: {}
+[2.208727] (-) TimerEvent: {}
+[2.219125] (antidrone_turret) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.222874] (antidrone_turret) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.308854] (-) TimerEvent: {}
+[2.409652] (-) TimerEvent: {}
+[2.510634] (-) TimerEvent: {}
+[2.611633] (-) TimerEvent: {}
+[2.648533] (antidrone_turret) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.711785] (-) TimerEvent: {}
+[2.812872] (-) TimerEvent: {}
+[2.913725] (-) TimerEvent: {}
+[3.014470] (-) TimerEvent: {}
+[3.057825] (antidrone_turret) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.114561] (-) TimerEvent: {}
+[3.215190] (-) TimerEvent: {}
+[3.315825] (-) TimerEvent: {}
+[3.416467] (-) TimerEvent: {}
+[3.517095] (-) TimerEvent: {}
+[3.617964] (-) TimerEvent: {}
+[3.718619] (-) TimerEvent: {}
+[3.726217] (antidrone_turret) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.769443] (antidrone_turret) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.818729] (-) TimerEvent: {}
+[3.919383] (-) TimerEvent: {}
+[4.020176] (-) TimerEvent: {}
+[4.121189] (-) TimerEvent: {}
+[4.138025] (antidrone_turret) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.146135] (antidrone_turret) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.221344] (-) TimerEvent: {}
+[4.322439] (-) TimerEvent: {}
+[4.423185] (-) TimerEvent: {}
+[4.514545] (antidrone_turret) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.518226] (antidrone_turret) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.523268] (-) TimerEvent: {}
+[4.623853] (-) TimerEvent: {}
+[4.724498] (-) TimerEvent: {}
+[4.825361] (-) TimerEvent: {}
+[4.926108] (-) TimerEvent: {}
+[5.026707] (-) TimerEvent: {}
+[5.127281] (-) TimerEvent: {}
+[5.228081] (-) TimerEvent: {}
+[5.328975] (-) TimerEvent: {}
+[5.429636] (-) TimerEvent: {}
+[5.486105] (antidrone_turret) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.529768] (-) TimerEvent: {}
+[5.630532] (-) TimerEvent: {}
+[5.731240] (-) TimerEvent: {}
+[5.832539] (-) TimerEvent: {}
+[5.933343] (-) TimerEvent: {}
+[6.034064] (-) TimerEvent: {}
+[6.134752] (-) TimerEvent: {}
+[6.235420] (-) TimerEvent: {}
+[6.336012] (-) TimerEvent: {}
+[6.436776] (-) TimerEvent: {}
+[6.533058] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.536840] (-) TimerEvent: {}
+[6.637392] (-) TimerEvent: {}
+[6.738013] (-) TimerEvent: {}
+[6.838586] (-) TimerEvent: {}
+[6.939190] (-) TimerEvent: {}
+[7.039777] (-) TimerEvent: {}
+[7.140401] (-) TimerEvent: {}
+[7.241332] (-) TimerEvent: {}
+[7.342128] (-) TimerEvent: {}
+[7.442833] (-) TimerEvent: {}
+[7.543512] (-) TimerEvent: {}
+[7.644291] (-) TimerEvent: {}
+[7.745181] (-) TimerEvent: {}
+[7.845857] (-) TimerEvent: {}
+[7.914938] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.945904] (-) TimerEvent: {}
+[7.952993] (antidrone_turret) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.954676] (antidrone_turret) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[8.045987] (-) TimerEvent: {}
+[8.054476] (antidrone_turret) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[8.056530] (antidrone_turret) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.058372] (antidrone_turret) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.059626] (antidrone_turret) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.072530] (antidrone_turret) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.146082] (-) TimerEvent: {}
+[8.246756] (-) TimerEvent: {}
+[8.347511] (-) TimerEvent: {}
+[8.448383] (-) TimerEvent: {}
+[8.549089] (-) TimerEvent: {}
+[8.649736] (-) TimerEvent: {}
+[8.750539] (-) TimerEvent: {}
+[8.851298] (-) TimerEvent: {}
+[8.952035] (-) TimerEvent: {}
+[9.052730] (-) TimerEvent: {}
+[9.142268] (antidrone_turret) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[9.152832] (-) TimerEvent: {}
+[9.253486] (-) TimerEvent: {}
+[9.354140] (-) TimerEvent: {}
+[9.454842] (-) TimerEvent: {}
+[9.555512] (-) TimerEvent: {}
+[9.656252] (-) TimerEvent: {}
+[9.756986] (-) TimerEvent: {}
+[9.804732] (antidrone_turret) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.857121] (-) TimerEvent: {}
+[9.957924] (-) TimerEvent: {}
+[10.059185] (-) TimerEvent: {}
+[10.160135] (-) TimerEvent: {}
+[10.261126] (-) TimerEvent: {}
+[10.362802] (-) TimerEvent: {}
+[10.463591] (-) TimerEvent: {}
+[10.564372] (-) TimerEvent: {}
+[10.665057] (-) TimerEvent: {}
+[10.765964] (-) TimerEvent: {}
+[10.866729] (-) TimerEvent: {}
+[10.967604] (-) TimerEvent: {}
+[11.068411] (-) TimerEvent: {}
+[11.169186] (-) TimerEvent: {}
+[11.270056] (-) TimerEvent: {}
+[11.371043] (-) TimerEvent: {}
+[11.471741] (-) TimerEvent: {}
+[11.572732] (-) TimerEvent: {}
+[11.673371] (-) TimerEvent: {}
+[11.774075] (-) TimerEvent: {}
+[11.875037] (-) TimerEvent: {}
+[11.975811] (-) TimerEvent: {}
+[12.054580] (antidrone_turret) StdoutLine: {'line': b'-- Generating done\n'}
+[12.075870] (-) TimerEvent: {}
+[12.176513] (-) TimerEvent: {}
+[12.277187] (-) TimerEvent: {}
+[12.377824] (-) TimerEvent: {}
+[12.478756] (-) TimerEvent: {}
+[12.580129] (-) TimerEvent: {}
+[12.680734] (-) TimerEvent: {}
+[12.781400] (-) TimerEvent: {}
+[12.882023] (-) TimerEvent: {}
+[12.982785] (-) TimerEvent: {}
+[12.988524] (antidrone_turret) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret\n'}
+[13.000630] (antidrone_turret) CommandEnded: {'returncode': 0}
+[13.004994] (antidrone_turret) JobProgress: {'identifier': 'antidrone_turret', 'progress': 'build'}
+[13.008426] (antidrone_turret) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret', '--', '-j12', '-l12'], 'cwd': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karpus'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/karpus'), ('OLDPWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karpus'), ('NAME', 'LenovoBobik'), ('WSL_INTEROP', '/run/WSL/17779_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/nikig/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nikig/AppData/Local/Programs/Microsoft VS Code/bin'), ('WT_SESSION', '77816cc7-fca8-4120-b62e-ef13e72d9f7a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.082868] (-) TimerEvent: {}
+[13.183562] (-) TimerEvent: {}
+[13.209883] (antidrone_turret) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.246543] (antidrone_turret) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[13.249159] (antidrone_turret) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[13.263633] (antidrone_turret) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[13.283598] (antidrone_turret) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_antidrone_turret\n'}
+[13.285901] (-) TimerEvent: {}
+[13.309468] (antidrone_turret) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.386053] (-) TimerEvent: {}
+[13.487143] (-) TimerEvent: {}
+[13.588816] (-) TimerEvent: {}
+[13.689788] (-) TimerEvent: {}
+[13.706981] (antidrone_turret) StdoutLine: {'line': b'running egg_info\n'}
+[13.709501] (antidrone_turret) StdoutLine: {'line': b'creating antidrone_turret.egg-info\n'}
+[13.712229] (antidrone_turret) StdoutLine: {'line': b'writing antidrone_turret.egg-info/PKG-INFO\n'}
+[13.717725] (antidrone_turret) StdoutLine: {'line': b'writing dependency_links to antidrone_turret.egg-info/dependency_links.txt\n'}
+[13.727009] (antidrone_turret) StdoutLine: {'line': b'writing top-level names to antidrone_turret.egg-info/top_level.txt\n'}
+[13.734742] (antidrone_turret) StdoutLine: {'line': b"writing manifest file 'antidrone_turret.egg-info/SOURCES.txt'\n"}
+[13.756496] (antidrone_turret) StdoutLine: {'line': b"reading manifest file 'antidrone_turret.egg-info/SOURCES.txt'\n"}
+[13.784985] (antidrone_turret) StdoutLine: {'line': b"writing manifest file 'antidrone_turret.egg-info/SOURCES.txt'\n"}
+[13.789876] (-) TimerEvent: {}
+[13.846072] (antidrone_turret) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_antidrone_turret_egg\n'}
+[13.889967] (-) TimerEvent: {}
+[13.985674] (antidrone_turret) StdoutLine: {'line': b'[  5%] Built target antidrone_turret__rs\n'}
+[13.990037] (-) TimerEvent: {}
+[14.090930] (-) TimerEvent: {}
+[14.192023] (-) TimerEvent: {}
+[14.292974] (-) TimerEvent: {}
+[14.393799] (-) TimerEvent: {}
+[14.494638] (-) TimerEvent: {}
+[14.595834] (-) TimerEvent: {}
+[14.628673] (antidrone_turret) StdoutLine: {'line': b'[  5%] Built target antidrone_turret__cpp\n'}
+[14.674778] (antidrone_turret) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.677756] (antidrone_turret) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.690273] (antidrone_turret) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.695986] (-) TimerEvent: {}
+[14.791828] (antidrone_turret) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/target__functions.c.o\x1b[0m\n'}
+[14.796187] (-) TimerEvent: {}
+[14.810340] (antidrone_turret) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/actuator_status__functions.c.o\x1b[0m\n'}
+[14.815711] (antidrone_turret) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/servo_command__functions.c.o\x1b[0m\n'}
+[14.822667] (antidrone_turret) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/gimbal_command__functions.c.o\x1b[0m\n'}
+[14.840432] (antidrone_turret) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/msg/detail/turret_status__functions.c.o\x1b[0m\n'}
+[14.854680] (antidrone_turret) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_c.dir/rosidl_generator_c/antidrone_turret/srv/detail/trigger_actuator__functions.c.o\x1b[0m\n'}
+[14.896321] (-) TimerEvent: {}
+[14.997633] (-) TimerEvent: {}
+[15.098712] (-) TimerEvent: {}
+[15.101057] (antidrone_turret) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[15.104035] (antidrone_turret) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libantidrone_turret__rosidl_generator_c.so\x1b[0m\n'}
+[15.198859] (-) TimerEvent: {}
+[15.228910] (antidrone_turret) StdoutLine: {'line': b'[ 18%] Built target gtest_main\n'}
+[15.298974] (-) TimerEvent: {}
+[15.399863] (-) TimerEvent: {}
+[15.436209] (antidrone_turret) StdoutLine: {'line': b'[ 18%] Built target antidrone_turret__rosidl_generator_c\n'}
+[15.490389] (antidrone_turret) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.495382] (antidrone_turret) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[15.498666] (antidrone_turret) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.501295] (-) TimerEvent: {}
+[15.572492] (antidrone_turret) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/target__type_support.cpp.o\x1b[0m\n'}
+[15.583511] (antidrone_turret) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/actuator_status__type_support.cpp.o\x1b[0m\n'}
+[15.589822] (antidrone_turret) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/servo_command__type_support.cpp.o\x1b[0m\n'}
+[15.598359] (antidrone_turret) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/gimbal_command__type_support.cpp.o\x1b[0m\n'}
+[15.602457] (-) TimerEvent: {}
+[15.610234] (antidrone_turret) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/msg/turret_status__type_support.cpp.o\x1b[0m\n'}
+[15.622778] (antidrone_turret) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/antidrone_turret/srv/trigger_actuator__type_support.cpp.o\x1b[0m\n'}
+[15.702668] (-) TimerEvent: {}
+[15.804842] (-) TimerEvent: {}
+[15.906332] (-) TimerEvent: {}
+[16.009305] (-) TimerEvent: {}
+[16.112196] (-) TimerEvent: {}
+[16.217954] (antidrone_turret) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/target__type_support.cpp.o\x1b[0m\n'}
+[16.233353] (-) TimerEvent: {}
+[16.337746] (-) TimerEvent: {}
+[16.370917] (antidrone_turret) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/actuator_status__type_support.cpp.o\x1b[0m\n'}
+[16.397584] (antidrone_turret) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/servo_command__type_support.cpp.o\x1b[0m\n'}
+[16.410948] (antidrone_turret) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/gimbal_command__type_support.cpp.o\x1b[0m\n'}
+[16.420579] (antidrone_turret) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/msg/detail/turret_status__type_support.cpp.o\x1b[0m\n'}
+[16.437907] (-) TimerEvent: {}
+[16.443476] (antidrone_turret) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/antidrone_turret/srv/detail/trigger_actuator__type_support.cpp.o\x1b[0m\n'}
+[16.495535] (antidrone_turret) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[16.533477] (antidrone_turret) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/target__type_support.cpp.o\x1b[0m\n'}
+[16.537964] (-) TimerEvent: {}
+[16.639334] (-) TimerEvent: {}
+[16.740511] (-) TimerEvent: {}
+[16.762652] (antidrone_turret) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/target__type_support.cpp.o\x1b[0m\n'}
+[16.840642] (-) TimerEvent: {}
+[16.942361] (-) TimerEvent: {}
+[17.031664] (antidrone_turret) StdoutLine: {'line': b'[ 38%] Built target antidrone_turret__rosidl_typesupport_cpp\n'}
+[17.042541] (-) TimerEvent: {}
+[17.045979] (antidrone_turret) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/actuator_status__type_support.cpp.o\x1b[0m\n'}
+[17.061093] (antidrone_turret) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/servo_command__type_support.cpp.o\x1b[0m\n'}
+[17.142713] (-) TimerEvent: {}
+[17.244111] (-) TimerEvent: {}
+[17.265736] (antidrone_turret) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/gimbal_command__type_support.cpp.o\x1b[0m\n'}
+[17.344265] (-) TimerEvent: {}
+[17.348877] (antidrone_turret) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/target__type_support.c.o\x1b[0m\n'}
+[17.380772] (antidrone_turret) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/target__type_support_c.cpp.o\x1b[0m\n'}
+[17.389352] (antidrone_turret) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/target_track_publisher_node.dir/src/target_track_publisher_node.cpp.o\x1b[0m\n'}
+[17.444407] (-) TimerEvent: {}
+[17.535417] (antidrone_turret) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/msg/turret_status__type_support.cpp.o\x1b[0m\n'}
+[17.544541] (-) TimerEvent: {}
+[17.591641] (antidrone_turret) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_c.dir/rosidl_typesupport_c/antidrone_turret/srv/trigger_actuator__type_support.cpp.o\x1b[0m\n'}
+[17.642247] (antidrone_turret) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/actuator_status__type_support.cpp.o\x1b[0m\n'}
+[17.649618] (-) TimerEvent: {}
+[17.650835] (antidrone_turret) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/actuator_status__type_support.c.o\x1b[0m\n'}
+[17.665495] (antidrone_turret) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/actuator_status__type_support_c.cpp.o\x1b[0m\n'}
+[17.749736] (-) TimerEvent: {}
+[17.776461] (antidrone_turret) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/servo_command__type_support.cpp.o\x1b[0m\n'}
+[17.814123] (antidrone_turret) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/servo_command__type_support_c.cpp.o\x1b[0m\n'}
+[17.819255] (antidrone_turret) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/gimbal_command__type_support.cpp.o\x1b[0m\n'}
+[17.825208] (antidrone_turret) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.849860] (-) TimerEvent: {}
+[17.866370] (antidrone_turret) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.949981] (-) TimerEvent: {}
+[18.051534] (-) TimerEvent: {}
+[18.079190] (antidrone_turret) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/servo_command__type_support.c.o\x1b[0m\n'}
+[18.108254] (antidrone_turret) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/gimbal_command__type_support.c.o\x1b[0m\n'}
+[18.151673] (-) TimerEvent: {}
+[18.253114] (-) TimerEvent: {}
+[18.354343] (-) TimerEvent: {}
+[18.393119] (antidrone_turret) StdoutLine: {'line': b'[ 59%] Built target antidrone_turret__rosidl_typesupport_c\n'}
+[18.429517] (antidrone_turret) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/msg/detail/turret_status__type_support.c.o\x1b[0m\n'}
+[18.454890] (-) TimerEvent: {}
+[18.488306] (antidrone_turret) StdoutLine: {'line': b'[ 60%] Built target antidrone_turret__rosidl_typesupport_introspection_cpp\n'}
+[18.516432] (antidrone_turret) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/antidrone_turret/srv/detail/trigger_actuator__type_support.c.o\x1b[0m\n'}
+[18.557356] (antidrone_turret) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/actuator_node.dir/src/actuator_node.cpp.o\x1b[0m\n'}
+[18.562785] (-) TimerEvent: {}
+[18.578113] (antidrone_turret) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/turret_controller_node.dir/src/turret_controller_node.cpp.o\x1b[0m\n'}
+[18.662937] (-) TimerEvent: {}
+[18.675961] (antidrone_turret) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/gimbal_command__type_support_c.cpp.o\x1b[0m\n'}
+[18.763088] (-) TimerEvent: {}
+[18.844454] (antidrone_turret) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/msg/detail/turret_status__type_support_c.cpp.o\x1b[0m\n'}
+[18.863247] (-) TimerEvent: {}
+[18.962171] (antidrone_turret) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library libantidrone_turret__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.966003] (-) TimerEvent: {}
+[19.067594] (-) TimerEvent: {}
+[19.069526] (antidrone_turret) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/gimbal_driver_node.dir/src/gimbal_driver_node.cpp.o\x1b[0m\n'}
+[19.133087] (antidrone_turret) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/msg/detail/dds_fastrtps/turret_status__type_support.cpp.o\x1b[0m\n'}
+[19.167732] (-) TimerEvent: {}
+[19.187446] (antidrone_turret) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/antidrone_turret/srv/detail/dds_fastrtps/trigger_actuator__type_support.cpp.o\x1b[0m\n'}
+[19.239178] (antidrone_turret) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/yaw_servo_driver_node.dir/src/yaw_servo_driver_node.cpp.o\x1b[0m\n'}
+[19.267930] (-) TimerEvent: {}
+[19.294430] (antidrone_turret) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/antidrone_turret/srv/detail/trigger_actuator__type_support_c.cpp.o\x1b[0m\n'}
+[19.368055] (-) TimerEvent: {}
+[19.469109] (-) TimerEvent: {}
+[19.548488] (antidrone_turret) StdoutLine: {'line': b'[ 72%] Built target antidrone_turret__rosidl_typesupport_introspection_c\n'}
+[19.569253] (-) TimerEvent: {}
+[19.670278] (-) TimerEvent: {}
+[19.771444] (-) TimerEvent: {}
+[19.873186] (-) TimerEvent: {}
+[19.974400] (-) TimerEvent: {}
+[20.075744] (-) TimerEvent: {}
+[20.177314] (-) TimerEvent: {}
+[20.278338] (-) TimerEvent: {}
+[20.379546] (-) TimerEvent: {}
+[20.480966] (-) TimerEvent: {}
+[20.541782] (antidrone_turret) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.581103] (-) TimerEvent: {}
+[20.622540] (antidrone_turret) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libantidrone_turret__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.681280] (-) TimerEvent: {}
+[20.782395] (-) TimerEvent: {}
+[20.806314] (antidrone_turret) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[20.882561] (-) TimerEvent: {}
+[20.983624] (-) TimerEvent: {}
+[21.084549] (-) TimerEvent: {}
+[21.121503] (antidrone_turret) StdoutLine: {'line': b'[ 76%] Built target antidrone_turret__rosidl_typesupport_fastrtps_cpp\n'}
+[21.175054] (antidrone_turret) StdoutLine: {'line': b'[ 76%] Built target antidrone_turret__rosidl_typesupport_fastrtps_c\n'}
+[21.184679] (-) TimerEvent: {}
+[21.263843] (antidrone_turret) StdoutLine: {'line': b'[ 76%] Built target antidrone_turret\n'}
+[21.284832] (-) TimerEvent: {}
+[21.386076] (-) TimerEvent: {}
+[21.405838] (antidrone_turret) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.486198] (-) TimerEvent: {}
+[21.587323] (-) TimerEvent: {}
+[21.690232] (-) TimerEvent: {}
+[21.791505] (-) TimerEvent: {}
+[21.893349] (-) TimerEvent: {}
+[21.998358] (-) TimerEvent: {}
+[22.099320] (-) TimerEvent: {}
+[22.200306] (-) TimerEvent: {}
+[22.301970] (-) TimerEvent: {}
+[22.402833] (-) TimerEvent: {}
+[22.503816] (-) TimerEvent: {}
+[22.604930] (-) TimerEvent: {}
+[22.705786] (-) TimerEvent: {}
+[22.807357] (-) TimerEvent: {}
+[22.878853] (antidrone_turret) StdoutLine: {'line': b'[ 77%] Built target gtest\n'}
+[22.907486] (-) TimerEvent: {}
+[22.966014] (antidrone_turret) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/provided_logic_test.dir/test/provided_logic_test.cpp.o\x1b[0m\n'}
+[23.007602] (-) TimerEvent: {}
+[23.108450] (-) TimerEvent: {}
+[23.209446] (-) TimerEvent: {}
+[23.311951] (-) TimerEvent: {}
+[23.333605] (antidrone_turret) StdoutLine: {'line': b'[ 78%] Built target antidrone_turret__py\n'}
+[23.412060] (-) TimerEvent: {}
+[23.462166] (antidrone_turret) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_target_s.c.o\x1b[0m\n'}
+[23.475598] (antidrone_turret) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_actuator_status_s.c.o\x1b[0m\n'}
+[23.485889] (antidrone_turret) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_gimbal_command_s.c.o\x1b[0m\n'}
+[23.490074] (antidrone_turret) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_servo_command_s.c.o\x1b[0m\n'}
+[23.494804] (antidrone_turret) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/msg/_turret_status_s.c.o\x1b[0m\n'}
+[23.512205] (-) TimerEvent: {}
+[23.523152] (antidrone_turret) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_generator_py.dir/rosidl_generator_py/antidrone_turret/srv/_trigger_actuator_s.c.o\x1b[0m\n'}
+[23.612326] (-) TimerEvent: {}
+[23.713653] (-) TimerEvent: {}
+[23.816510] (-) TimerEvent: {}
+[23.921343] (-) TimerEvent: {}
+[24.022482] (-) TimerEvent: {}
+[24.099672] (antidrone_turret) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/antidrone_turret/libantidrone_turret__rosidl_generator_py.so\x1b[0m\n'}
+[24.122652] (-) TimerEvent: {}
+[24.223731] (-) TimerEvent: {}
+[24.324773] (-) TimerEvent: {}
+[24.426655] (-) TimerEvent: {}
+[24.479419] (antidrone_turret) StdoutLine: {'line': b'[ 86%] Built target antidrone_turret__rosidl_generator_py\n'}
+[24.526821] (-) TimerEvent: {}
+[24.594289] (antidrone_turret) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[24.597845] (antidrone_turret) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[24.603504] (antidrone_turret) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/antidrone_turret__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[24.626975] (-) TimerEvent: {}
+[24.728057] (-) TimerEvent: {}
+[24.829331] (-) TimerEvent: {}
+[24.931004] (-) TimerEvent: {}
+[25.032033] (-) TimerEvent: {}
+[25.132955] (-) TimerEvent: {}
+[25.156672] (antidrone_turret) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.233056] (-) TimerEvent: {}
+[25.244286] (antidrone_turret) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.250594] (antidrone_turret) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.333282] (-) TimerEvent: {}
+[25.406057] (antidrone_turret) StdoutLine: {'line': b'[ 93%] Built target antidrone_turret__rosidl_typesupport_c__pyext\n'}
+[25.433317] (-) TimerEvent: {}
+[25.448435] (antidrone_turret) StdoutLine: {'line': b'[ 93%] Built target antidrone_turret__rosidl_typesupport_introspection_c__pyext\n'}
+[25.454903] (antidrone_turret) StdoutLine: {'line': b'[ 93%] Built target antidrone_turret__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.533431] (-) TimerEvent: {}
+[25.634551] (-) TimerEvent: {}
+[25.735554] (-) TimerEvent: {}
+[25.836678] (-) TimerEvent: {}
+[25.938310] (-) TimerEvent: {}
+[26.039438] (-) TimerEvent: {}
+[26.140564] (-) TimerEvent: {}
+[26.245698] (-) TimerEvent: {}
+[26.346728] (-) TimerEvent: {}
+[26.447774] (-) TimerEvent: {}
+[26.549059] (-) TimerEvent: {}
+[26.650136] (-) TimerEvent: {}
+[26.751176] (-) TimerEvent: {}
+[26.852218] (-) TimerEvent: {}
+[26.953663] (-) TimerEvent: {}
+[27.025248] (antidrone_turret) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable provided_logic_test\x1b[0m\n'}
+[27.053762] (-) TimerEvent: {}
+[27.154715] (-) TimerEvent: {}
+[27.255703] (-) TimerEvent: {}
+[27.356631] (-) TimerEvent: {}
+[27.457893] (-) TimerEvent: {}
+[27.559132] (-) TimerEvent: {}
+[27.660066] (-) TimerEvent: {}
+[27.760892] (-) TimerEvent: {}
+[27.861744] (-) TimerEvent: {}
+[27.962699] (-) TimerEvent: {}
+[28.064309] (-) TimerEvent: {}
+[28.165095] (-) TimerEvent: {}
+[28.265851] (-) TimerEvent: {}
+[28.366649] (-) TimerEvent: {}
+[28.467626] (-) TimerEvent: {}
+[28.569141] (-) TimerEvent: {}
+[28.669998] (-) TimerEvent: {}
+[28.771038] (-) TimerEvent: {}
+[28.872488] (-) TimerEvent: {}
+[28.973560] (-) TimerEvent: {}
+[29.074618] (-) TimerEvent: {}
+[29.172035] (antidrone_turret) StdoutLine: {'line': b'[ 94%] Built target provided_logic_test\n'}
+[29.174708] (-) TimerEvent: {}
+[29.275702] (-) TimerEvent: {}
+[29.377334] (-) TimerEvent: {}
+[29.478355] (-) TimerEvent: {}
+[29.579170] (-) TimerEvent: {}
+[29.680182] (-) TimerEvent: {}
+[29.781111] (-) TimerEvent: {}
+[29.882368] (-) TimerEvent: {}
+[29.983331] (-) TimerEvent: {}
+[30.084506] (-) TimerEvent: {}
+[30.185386] (-) TimerEvent: {}
+[30.286266] (-) TimerEvent: {}
+[30.387329] (-) TimerEvent: {}
+[30.399707] (antidrone_turret) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable actuator_node\x1b[0m\n'}
+[30.487511] (-) TimerEvent: {}
+[30.588668] (-) TimerEvent: {}
+[30.689503] (-) TimerEvent: {}
+[30.790341] (-) TimerEvent: {}
+[30.891875] (-) TimerEvent: {}
+[30.992776] (-) TimerEvent: {}
+[31.093694] (-) TimerEvent: {}
+[31.194628] (-) TimerEvent: {}
+[31.295496] (-) TimerEvent: {}
+[31.396457] (-) TimerEvent: {}
+[31.497560] (-) TimerEvent: {}
+[31.598318] (-) TimerEvent: {}
+[31.699134] (-) TimerEvent: {}
+[31.800099] (-) TimerEvent: {}
+[31.901236] (-) TimerEvent: {}
+[32.002008] (-) TimerEvent: {}
+[32.102739] (-) TimerEvent: {}
+[32.203543] (-) TimerEvent: {}
+[32.304305] (-) TimerEvent: {}
+[32.413020] (-) TimerEvent: {}
+[32.514023] (-) TimerEvent: {}
+[32.614740] (-) TimerEvent: {}
+[32.703261] (antidrone_turret) StdoutLine: {'line': b'[ 95%] Built target actuator_node\n'}
+[32.714902] (-) TimerEvent: {}
+[32.816364] (-) TimerEvent: {}
+[32.917413] (-) TimerEvent: {}
+[33.018498] (-) TimerEvent: {}
+[33.119504] (-) TimerEvent: {}
+[33.220456] (-) TimerEvent: {}
+[33.321687] (-) TimerEvent: {}
+[33.422577] (-) TimerEvent: {}
+[33.523638] (-) TimerEvent: {}
+[33.624684] (-) TimerEvent: {}
+[33.725812] (-) TimerEvent: {}
+[33.826944] (-) TimerEvent: {}
+[33.927756] (-) TimerEvent: {}
+[34.028569] (-) TimerEvent: {}
+[34.129449] (-) TimerEvent: {}
+[34.230377] (-) TimerEvent: {}
+[34.331190] (-) TimerEvent: {}
+[34.431963] (-) TimerEvent: {}
+[34.532638] (-) TimerEvent: {}
+[34.633485] (-) TimerEvent: {}
+[34.734284] (-) TimerEvent: {}
+[34.835275] (-) TimerEvent: {}
+[34.936045] (-) TimerEvent: {}
+[35.036865] (-) TimerEvent: {}
+[35.138029] (-) TimerEvent: {}
+[35.238973] (-) TimerEvent: {}
+[35.340036] (-) TimerEvent: {}
+[35.440760] (-) TimerEvent: {}
+[35.541711] (-) TimerEvent: {}
+[35.643043] (-) TimerEvent: {}
+[35.743913] (-) TimerEvent: {}
+[35.810486] (antidrone_turret) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable gimbal_driver_node\x1b[0m\n'}
+[35.844028] (-) TimerEvent: {}
+[35.928362] (antidrone_turret) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable yaw_servo_driver_node\x1b[0m\n'}
+[35.944127] (-) TimerEvent: {}
+[36.045117] (-) TimerEvent: {}
+[36.145955] (-) TimerEvent: {}
+[36.246875] (-) TimerEvent: {}
+[36.347900] (-) TimerEvent: {}
+[36.448712] (-) TimerEvent: {}
+[36.549539] (-) TimerEvent: {}
+[36.650254] (-) TimerEvent: {}
+[36.751036] (-) TimerEvent: {}
+[36.852060] (-) TimerEvent: {}
+[36.952826] (-) TimerEvent: {}
+[36.987100] (antidrone_turret) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable target_track_publisher_node\x1b[0m\n'}
+[37.052934] (-) TimerEvent: {}
+[37.153691] (-) TimerEvent: {}
+[37.254358] (-) TimerEvent: {}
+[37.291562] (antidrone_turret) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turret_controller_node\x1b[0m\n'}
+[37.354464] (-) TimerEvent: {}
+[37.455228] (-) TimerEvent: {}
+[37.556285] (-) TimerEvent: {}
+[37.657123] (-) TimerEvent: {}
+[37.758132] (-) TimerEvent: {}
+[37.858987] (-) TimerEvent: {}
+[37.959924] (-) TimerEvent: {}
+[38.060916] (-) TimerEvent: {}
+[38.161946] (-) TimerEvent: {}
+[38.263143] (-) TimerEvent: {}
+[38.364182] (-) TimerEvent: {}
+[38.465000] (-) TimerEvent: {}
+[38.565919] (-) TimerEvent: {}
+[38.666795] (-) TimerEvent: {}
+[38.767571] (-) TimerEvent: {}
+[38.868473] (-) TimerEvent: {}
+[38.969495] (-) TimerEvent: {}
+[39.070361] (-) TimerEvent: {}
+[39.171391] (-) TimerEvent: {}
+[39.272560] (-) TimerEvent: {}
+[39.373648] (-) TimerEvent: {}
+[39.474746] (-) TimerEvent: {}
+[39.575702] (-) TimerEvent: {}
+[39.676639] (-) TimerEvent: {}
+[39.777597] (-) TimerEvent: {}
+[39.878659] (-) TimerEvent: {}
+[39.979539] (-) TimerEvent: {}
+[40.080410] (-) TimerEvent: {}
+[40.181327] (-) TimerEvent: {}
+[40.282226] (-) TimerEvent: {}
+[40.383004] (-) TimerEvent: {}
+[40.483854] (-) TimerEvent: {}
+[40.584737] (-) TimerEvent: {}
+[40.685677] (-) TimerEvent: {}
+[40.786414] (-) TimerEvent: {}
+[40.887245] (-) TimerEvent: {}
+[40.951470] (antidrone_turret) StdoutLine: {'line': b'[100%] Built target gimbal_driver_node\n'}
+[40.987369] (-) TimerEvent: {}
+[41.044424] (antidrone_turret) StdoutLine: {'line': b'[100%] Built target yaw_servo_driver_node\n'}
+[41.087484] (-) TimerEvent: {}
+[41.188230] (-) TimerEvent: {}
+[41.289178] (-) TimerEvent: {}
+[41.390360] (-) TimerEvent: {}
+[41.491189] (-) TimerEvent: {}
+[41.592009] (-) TimerEvent: {}
+[41.692729] (-) TimerEvent: {}
+[41.793754] (-) TimerEvent: {}
+[41.894764] (-) TimerEvent: {}
+[41.995695] (-) TimerEvent: {}
+[42.096458] (-) TimerEvent: {}
+[42.197189] (-) TimerEvent: {}
+[42.297982] (-) TimerEvent: {}
+[42.398664] (-) TimerEvent: {}
+[42.443435] (antidrone_turret) StdoutLine: {'line': b'[100%] Built target target_track_publisher_node\n'}
+[42.498779] (-) TimerEvent: {}
+[42.599447] (-) TimerEvent: {}
+[42.700079] (-) TimerEvent: {}
+[42.800732] (-) TimerEvent: {}
+[42.819858] (antidrone_turret) StdoutLine: {'line': b'[100%] Built target turret_controller_node\n'}
+[42.900865] (-) TimerEvent: {}
+[43.001587] (-) TimerEvent: {}
+[43.061693] (antidrone_turret) CommandEnded: {'returncode': 0}
+[43.073520] (antidrone_turret) JobProgress: {'identifier': 'antidrone_turret', 'progress': 'install'}
+[43.084578] (antidrone_turret) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret'], 'cwd': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karpus'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/karpus'), ('OLDPWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karpus'), ('NAME', 'LenovoBobik'), ('WSL_INTEROP', '/run/WSL/17779_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/nikig/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nikig/AppData/Local/Programs/Microsoft VS Code/bin'), ('WT_SESSION', '77816cc7-fca8-4120-b62e-ef13e72d9f7a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[43.094601] (antidrone_turret) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.101635] (-) TimerEvent: {}
+[43.118872] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/rosidl_interfaces/antidrone_turret\n'}
+[43.171468] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[43.189808] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg\n'}
+[43.201692] (-) TimerEvent: {}
+[43.214444] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/actuator_status.h\n'}
+[43.266062] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail\n'}
+[43.296864] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__functions.c\n'}
+[43.301782] (-) TimerEvent: {}
+[43.360970] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__functions.h\n'}
+[43.401879] (-) TimerEvent: {}
+[43.423959] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__struct.h\n'}
+[43.496046] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.h\n'}
+[43.501936] (-) TimerEvent: {}
+[43.557842] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__functions.c\n'}
+[43.602047] (-) TimerEvent: {}
+[43.620573] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__functions.h\n'}
+[43.692818] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__struct.h\n'}
+[43.702172] (-) TimerEvent: {}
+[43.777585] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.h\n'}
+[43.802307] (-) TimerEvent: {}
+[43.861264] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__functions.c\n'}
+[43.902393] (-) TimerEvent: {}
+[43.931992] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__functions.h\n'}
+[44.002146] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__struct.h\n'}
+[44.003771] (-) TimerEvent: {}
+[44.069174] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.h\n'}
+[44.103890] (-) TimerEvent: {}
+[44.136888] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__functions.c\n'}
+[44.201347] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__functions.h\n'}
+[44.204035] (-) TimerEvent: {}
+[44.270484] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__struct.h\n'}
+[44.304132] (-) TimerEvent: {}
+[44.342747] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.h\n'}
+[44.404210] (-) TimerEvent: {}
+[44.404832] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__functions.c\n'}
+[44.470386] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__functions.h\n'}
+[44.504308] (-) TimerEvent: {}
+[44.534828] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__struct.h\n'}
+[44.598445] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.h\n'}
+[44.604401] (-) TimerEvent: {}
+[44.659157] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/gimbal_command.h\n'}
+[44.704490] (-) TimerEvent: {}
+[44.717462] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.784480] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/servo_command.h\n'}
+[44.804610] (-) TimerEvent: {}
+[44.843853] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/target.h\n'}
+[44.904718] (-) TimerEvent: {}
+[44.905797] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/turret_status.h\n'}
+[44.962713] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv\n'}
+[44.985551] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail\n'}
+[45.004827] (-) TimerEvent: {}
+[45.016329] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__functions.c\n'}
+[45.084161] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__functions.h\n'}
+[45.104986] (-) TimerEvent: {}
+[45.150522] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__struct.h\n'}
+[45.205066] (-) TimerEvent: {}
+[45.225331] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.h\n'}
+[45.290256] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/trigger_actuator.h\n'}
+[45.305197] (-) TimerEvent: {}
+[45.346754] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/library_path.sh\n'}
+[45.386973] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/library_path.dsv\n'}
+[45.405297] (-) TimerEvent: {}
+[45.431409] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_c.so\n'}
+[45.495824] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_c.so" to ""\n'}
+[45.503514] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[45.506006] (-) TimerEvent: {}
+[45.521120] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg\n'}
+[45.541378] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail\n'}
+[45.568094] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_fastrtps_c.h\n'}
+[45.606105] (-) TimerEvent: {}
+[45.631782] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_fastrtps_c.h\n'}
+[45.693954] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_fastrtps_c.h\n'}
+[45.706180] (-) TimerEvent: {}
+[45.764314] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_fastrtps_c.h\n'}
+[45.806274] (-) TimerEvent: {}
+[45.831488] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_fastrtps_c.h\n'}
+[45.893942] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[45.906328] (-) TimerEvent: {}
+[45.951382] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv\n'}
+[45.969793] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail\n'}
+[45.994647] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_fastrtps_c.h\n'}
+[46.006382] (-) TimerEvent: {}
+[46.061693] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_c.so\n'}
+[46.106474] (-) TimerEvent: {}
+[46.138237] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[46.145708] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[46.162466] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg\n'}
+[46.184646] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail\n'}
+[46.206640] (-) TimerEvent: {}
+[46.209691] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_introspection_c.h\n'}
+[46.272153] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.c\n'}
+[46.306728] (-) TimerEvent: {}
+[46.344922] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_introspection_c.h\n'}
+[46.406864] (-) TimerEvent: {}
+[46.416463] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.c\n'}
+[46.480636] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_introspection_c.h\n'}
+[46.506952] (-) TimerEvent: {}
+[46.545458] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.c\n'}
+[46.607054] (-) TimerEvent: {}
+[46.613334] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_introspection_c.h\n'}
+[46.678087] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.c\n'}
+[46.707163] (-) TimerEvent: {}
+[46.744074] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_introspection_c.h\n'}
+[46.805981] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.c\n'}
+[46.807426] (-) TimerEvent: {}
+[46.866782] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[46.907526] (-) TimerEvent: {}
+[46.919656] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv\n'}
+[46.938591] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail\n'}
+[46.963069] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_introspection_c.h\n'}
+[47.007627] (-) TimerEvent: {}
+[47.030175] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.c\n'}
+[47.092680] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_c.so\n'}
+[47.107721] (-) TimerEvent: {}
+[47.161611] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_c.so" to ""\n'}
+[47.171341] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_c.so\n'}
+[47.207808] (-) TimerEvent: {}
+[47.227135] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_c.so" to ""\n'}
+[47.234418] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[47.248756] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg\n'}
+[47.267400] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/actuator_status.hpp\n'}
+[47.307938] (-) TimerEvent: {}
+[47.324793] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail\n'}
+[47.349579] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__builder.hpp\n'}
+[47.408056] (-) TimerEvent: {}
+[47.432962] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__struct.hpp\n'}
+[47.508305] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__traits.hpp\n'}
+[47.509958] (-) TimerEvent: {}
+[47.570369] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.hpp\n'}
+[47.610067] (-) TimerEvent: {}
+[47.634586] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__builder.hpp\n'}
+[47.697266] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__struct.hpp\n'}
+[47.710137] (-) TimerEvent: {}
+[47.778465] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__traits.hpp\n'}
+[47.810278] (-) TimerEvent: {}
+[47.846670] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.hpp\n'}
+[47.910350] (-) TimerEvent: {}
+[47.911388] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__builder.hpp\n'}
+[47.977671] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__struct.hpp\n'}
+[48.010465] (-) TimerEvent: {}
+[48.045135] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__traits.hpp\n'}
+[48.107875] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.hpp\n'}
+[48.110528] (-) TimerEvent: {}
+[48.168217] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__builder.hpp\n'}
+[48.210642] (-) TimerEvent: {}
+[48.229600] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__struct.hpp\n'}
+[48.292613] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__traits.hpp\n'}
+[48.310744] (-) TimerEvent: {}
+[48.354941] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.hpp\n'}
+[48.410830] (-) TimerEvent: {}
+[48.419478] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__builder.hpp\n'}
+[48.481511] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__struct.hpp\n'}
+[48.510950] (-) TimerEvent: {}
+[48.548183] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__traits.hpp\n'}
+[48.611043] (-) TimerEvent: {}
+[48.616577] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.hpp\n'}
+[48.679848] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/gimbal_command.hpp\n'}
+[48.711153] (-) TimerEvent: {}
+[48.740241] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[48.797999] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/servo_command.hpp\n'}
+[48.811271] (-) TimerEvent: {}
+[48.856020] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/target.hpp\n'}
+[48.911441] (-) TimerEvent: {}
+[48.914895] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/turret_status.hpp\n'}
+[48.967135] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv\n'}
+[48.984108] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail\n'}
+[49.008300] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__builder.hpp\n'}
+[49.011478] (-) TimerEvent: {}
+[49.072817] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__struct.hpp\n'}
+[49.111604] (-) TimerEvent: {}
+[49.140112] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__traits.hpp\n'}
+[49.205979] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.hpp\n'}
+[49.211673] (-) TimerEvent: {}
+[49.269788] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/trigger_actuator.hpp\n'}
+[49.311781] (-) TimerEvent: {}
+[49.322080] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[49.337378] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg\n'}
+[49.355926] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail\n'}
+[49.378727] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.411874] (-) TimerEvent: {}
+[49.438834] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/dds_fastrtps\n'}
+[49.471821] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.511963] (-) TimerEvent: {}
+[49.535099] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.603532] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.612095] (-) TimerEvent: {}
+[49.677413] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.712188] (-) TimerEvent: {}
+[49.744716] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[49.802624] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv\n'}
+[49.812241] (-) TimerEvent: {}
+[49.823096] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail\n'}
+[49.845957] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/dds_fastrtps\n'}
+[49.881552] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.912334] (-) TimerEvent: {}
+[49.943317] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_cpp.so\n'}
+[50.010331] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[50.012360] (-) TimerEvent: {}
+[50.018644] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[50.033597] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg\n'}
+[50.053070] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail\n'}
+[50.080590] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[50.112476] (-) TimerEvent: {}
+[50.167195] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/actuator_status__type_support.cpp\n'}
+[50.212575] (-) TimerEvent: {}
+[50.236579] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[50.300363] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/gimbal_command__type_support.cpp\n'}
+[50.312639] (-) TimerEvent: {}
+[50.362874] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[50.412804] (-) TimerEvent: {}
+[50.426848] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/servo_command__type_support.cpp\n'}
+[50.490047] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp\n'}
+[50.512883] (-) TimerEvent: {}
+[50.553329] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/target__type_support.cpp\n'}
+[50.612950] (-) TimerEvent: {}
+[50.617028] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[50.680396] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/msg/detail/turret_status__type_support.cpp\n'}
+[50.713057] (-) TimerEvent: {}
+[50.744027] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv\n'}
+[50.762897] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail\n'}
+[50.787063] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__rosidl_typesupport_introspection_cpp.hpp\n'}
+[50.813154] (-) TimerEvent: {}
+[50.851665] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/srv/detail/trigger_actuator__type_support.cpp\n'}
+[50.911456] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_cpp.so\n'}
+[50.913251] (-) TimerEvent: {}
+[50.971408] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[50.981428] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_cpp.so\n'}
+[51.013347] (-) TimerEvent: {}
+[51.044130] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_typesupport_cpp.so" to ""\n'}
+[51.056541] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/pythonpath.sh\n'}
+[51.103071] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/pythonpath.dsv\n'}
+[51.113448] (-) TimerEvent: {}
+[51.146836] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info\n'}
+[51.176488] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[51.213553] (-) TimerEvent: {}
+[51.244126] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[51.306810] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[51.313640] (-) TimerEvent: {}
+[51.367869] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[51.413729] (-) TimerEvent: {}
+[51.427556] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret\n'}
+[51.456868] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.513830] (-) TimerEvent: {}
+[51.534749] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.605453] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.613887] (-) TimerEvent: {}
+[51.689008] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/libantidrone_turret__rosidl_generator_py.so\n'}
+[51.714044] (-) TimerEvent: {}
+[51.770330] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg\n'}
+[51.809032] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_actuator_status.py\n'}
+[51.814126] (-) TimerEvent: {}
+[51.886014] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_actuator_status_s.c\n'}
+[51.914235] (-) TimerEvent: {}
+[51.956767] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_gimbal_command.py\n'}
+[52.014455] (-) TimerEvent: {}
+[52.024845] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_gimbal_command_s.c\n'}
+[52.095129] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_servo_command.py\n'}
+[52.114536] (-) TimerEvent: {}
+[52.162446] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_servo_command_s.c\n'}
+[52.214637] (-) TimerEvent: {}
+[52.230459] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_target.py\n'}
+[52.297365] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_target_s.c\n'}
+[52.314737] (-) TimerEvent: {}
+[52.365575] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_turret_status.py\n'}
+[52.414845] (-) TimerEvent: {}
+[52.432324] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_turret_status_s.c\n'}
+[52.496044] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/__init__.py\n'}
+[52.514947] (-) TimerEvent: {}
+[52.556986] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv\n'}
+[52.588657] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/_trigger_actuator.py\n'}
+[52.615047] (-) TimerEvent: {}
+[52.651879] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/_trigger_actuator_s.c\n'}
+[52.714754] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/__init__.py\n'}
+[52.716924] (-) TimerEvent: {}
+[52.777347] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_c.c\n'}
+[52.817019] (-) TimerEvent: {}
+[52.840165] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[52.904094] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/_antidrone_turret_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[52.917108] (-) TimerEvent: {}
+[52.968823] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/__init__.py\n'}
+[53.017213] (-) TimerEvent: {}
+[53.117841] (-) TimerEvent: {}
+[53.218475] (-) TimerEvent: {}
+[53.319077] (-) TimerEvent: {}
+[53.419754] (-) TimerEvent: {}
+[53.519994] (antidrone_turret) StdoutLine: {'line': b"Listing '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret'...\n"}
+[53.521570] (-) TimerEvent: {}
+[53.521995] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/__init__.py'...\n"}
+[53.523281] (antidrone_turret) StdoutLine: {'line': b"Listing '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg'...\n"}
+[53.524706] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/__init__.py'...\n"}
+[53.526094] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_actuator_status.py'...\n"}
+[53.527717] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_gimbal_command.py'...\n"}
+[53.529650] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_servo_command.py'...\n"}
+[53.531083] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_target.py'...\n"}
+[53.532411] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/msg/_turret_status.py'...\n"}
+[53.533719] (antidrone_turret) StdoutLine: {'line': b"Listing '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv'...\n"}
+[53.535025] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/__init__.py'...\n"}
+[53.536335] (antidrone_turret) StdoutLine: {'line': b"Compiling '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/srv/_trigger_actuator.py'...\n"}
+[53.568850] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.621658] (-) TimerEvent: {}
+[53.658056] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.699461] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.721767] (-) TimerEvent: {}
+[53.799590] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.821886] (-) TimerEvent: {}
+[53.849023] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[53.921935] (-) TimerEvent: {}
+[53.946022] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/local/lib/python3.10/dist-packages/antidrone_turret/antidrone_turret_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[53.959684] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_py.so\n'}
+[54.022006] (-) TimerEvent: {}
+[54.036602] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/libantidrone_turret__rosidl_generator_py.so" to ""\n'}
+[54.067743] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/rust_packages/antidrone_turret\n'}
+[54.119448] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust\n'}
+[54.122085] (-) TimerEvent: {}
+[54.141033] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/build.rs\n'}
+[54.191245] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/Cargo.toml\n'}
+[54.222206] (-) TimerEvent: {}
+[54.238290] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src\n'}
+[54.264319] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/lib.rs\n'}
+[54.317270] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/msg\n'}
+[54.322344] (-) TimerEvent: {}
+[54.347893] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/msg/rmw.rs\n'}
+[54.413654] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/msg.rs\n'}
+[54.422427] (-) TimerEvent: {}
+[54.470664] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/srv\n'}
+[54.500690] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/srv/rmw.rs\n'}
+[54.522541] (-) TimerEvent: {}
+[54.595999] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/rust/src/srv.rs\n'}
+[54.622669] (-) TimerEvent: {}
+[54.669249] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/Target.idl\n'}
+[54.721807] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ActuatorStatus.idl\n'}
+[54.723467] (-) TimerEvent: {}
+[54.774115] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ServoCommand.idl\n'}
+[54.823574] (-) TimerEvent: {}
+[54.826258] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/GimbalCommand.idl\n'}
+[54.878147] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/TurretStatus.idl\n'}
+[54.923663] (-) TimerEvent: {}
+[54.935966] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator.idl\n'}
+[54.984925] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/Target.msg\n'}
+[55.023759] (-) TimerEvent: {}
+[55.030723] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ActuatorStatus.msg\n'}
+[55.076726] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/ServoCommand.msg\n'}
+[55.121730] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/GimbalCommand.msg\n'}
+[55.123790] (-) TimerEvent: {}
+[55.174050] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/msg/TurretStatus.msg\n'}
+[55.223974] (-) TimerEvent: {}
+[55.224992] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator.srv\n'}
+[55.276184] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator_Request.msg\n'}
+[55.324058] (-) TimerEvent: {}
+[55.328480] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/srv/TriggerActuator_Response.msg\n'}
+[55.375015] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret\n'}
+[55.386869] (antidrone_turret) StdoutLine: {'line': b'-- Up-to-date: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret\n'}
+[55.403110] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/actuator_model.hpp\n'}
+[55.424148] (-) TimerEvent: {}
+[55.448945] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/gimbal_driver.hpp\n'}
+[55.493729] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_decision.hpp\n'}
+[55.524242] (-) TimerEvent: {}
+[55.539345] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_sequence.hpp\n'}
+[55.585807] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_track_loader.hpp\n'}
+[55.624338] (-) TimerEvent: {}
+[55.632107] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/target_track_simulation.hpp\n'}
+[55.678721] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/turret_controller.hpp\n'}
+[55.724443] (-) TimerEvent: {}
+[55.726373] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/include/antidrone_turret/antidrone_turret/yaw_servo_driver.hpp\n'}
+[55.781327] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/target_track_publisher_node\n'}
+[55.824542] (-) TimerEvent: {}
+[55.925107] (-) TimerEvent: {}
+[56.025800] (-) TimerEvent: {}
+[56.126382] (-) TimerEvent: {}
+[56.167293] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/target_track_publisher_node" to ""\n'}
+[56.179489] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/actuator_node\n'}
+[56.226477] (-) TimerEvent: {}
+[56.327010] (-) TimerEvent: {}
+[56.362809] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/actuator_node" to ""\n'}
+[56.375050] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/turret_controller_node\n'}
+[56.427109] (-) TimerEvent: {}
+[56.527712] (-) TimerEvent: {}
+[56.628222] (-) TimerEvent: {}
+[56.728770] (-) TimerEvent: {}
+[56.760978] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/turret_controller_node" to ""\n'}
+[56.772991] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/gimbal_driver_node\n'}
+[56.828894] (-) TimerEvent: {}
+[56.929770] (-) TimerEvent: {}
+[57.030311] (-) TimerEvent: {}
+[57.109973] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/gimbal_driver_node" to ""\n'}
+[57.122048] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/yaw_servo_driver_node\n'}
+[57.130384] (-) TimerEvent: {}
+[57.230892] (-) TimerEvent: {}
+[57.331488] (-) TimerEvent: {}
+[57.432028] (-) TimerEvent: {}
+[57.460922] (antidrone_turret) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/lib/antidrone_turret/yaw_servo_driver_node" to ""\n'}
+[57.466246] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/launch\n'}
+[57.483808] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/launch/system.launch.py\n'}
+[57.524161] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/config\n'}
+[57.532161] (-) TimerEvent: {}
+[57.541454] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/config/sequence.yaml\n'}
+[57.581408] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks\n'}
+[57.598683] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/approach_trigger.csv\n'}
+[57.632250] (-) TimerEvent: {}
+[57.641442] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/far_flyby_no_trigger.csv\n'}
+[57.682587] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/low_confidence_no_trigger.csv\n'}
+[57.726564] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/tracks/reload_pressure.csv\n'}
+[57.732342] (-) TimerEvent: {}
+[57.787965] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/package_run_dependencies/antidrone_turret\n'}
+[57.832426] (-) TimerEvent: {}
+[57.863735] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/parent_prefix_path/antidrone_turret\n'}
+[57.922325] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/ament_prefix_path.sh\n'}
+[57.932501] (-) TimerEvent: {}
+[57.966004] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/ament_prefix_path.dsv\n'}
+[58.010584] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/path.sh\n'}
+[58.032560] (-) TimerEvent: {}
+[58.051942] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/environment/path.dsv\n'}
+[58.095609] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.bash\n'}
+[58.132663] (-) TimerEvent: {}
+[58.135504] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.sh\n'}
+[58.173474] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.zsh\n'}
+[58.212286] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/local_setup.dsv\n'}
+[58.232722] (-) TimerEvent: {}
+[58.250947] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.dsv\n'}
+[58.304904] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/ament_index/resource_index/packages/antidrone_turret\n'}
+[58.332817] (-) TimerEvent: {}
+[58.376526] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_cExport.cmake\n'}
+[58.432890] (-) TimerEvent: {}
+[58.438809] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_cExport-noconfig.cmake\n'}
+[58.500134] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[58.532993] (-) TimerEvent: {}
+[58.561472] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[58.620709] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cExport.cmake\n'}
+[58.633113] (-) TimerEvent: {}
+[58.678757] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[58.733196] (-) TimerEvent: {}
+[58.738497] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cExport.cmake\n'}
+[58.799365] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[58.833295] (-) TimerEvent: {}
+[58.859527] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_cppExport.cmake\n'}
+[58.919668] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[58.933356] (-) TimerEvent: {}
+[58.981464] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[59.033417] (-) TimerEvent: {}
+[59.052221] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[59.110555] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[59.133516] (-) TimerEvent: {}
+[59.171413] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cppExport.cmake\n'}
+[59.233572] (-) TimerEvent: {}
+[59.235862] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turret__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[59.297674] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_pyExport.cmake\n'}
+[59.333664] (-) TimerEvent: {}
+[59.356663] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/export_antidrone_turret__rosidl_generator_pyExport-noconfig.cmake\n'}
+[59.410373] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake-extras.cmake\n'}
+[59.433747] (-) TimerEvent: {}
+[59.456182] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[59.501953] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[59.533900] (-) TimerEvent: {}
+[59.547434] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[59.595367] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[59.633976] (-) TimerEvent: {}
+[59.640139] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[59.686175] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[59.731950] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[59.734405] (-) TimerEvent: {}
+[59.777579] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turretConfig.cmake\n'}
+[59.820061] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/cmake/antidrone_turretConfig-version.cmake\n'}
+[59.834462] (-) TimerEvent: {}
+[59.863898] (antidrone_turret) StdoutLine: {'line': b'-- Installing: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/install/antidrone_turret/share/antidrone_turret/package.xml\n'}
+[59.899737] (antidrone_turret) CommandEnded: {'returncode': 0}
+[59.934582] (-) TimerEvent: {}
+[60.035190] (-) TimerEvent: {}
+[60.135829] (-) TimerEvent: {}
+[60.236673] (-) TimerEvent: {}
+[60.337770] (-) TimerEvent: {}
+[60.438556] (-) TimerEvent: {}
+[60.539166] (-) TimerEvent: {}
+[60.639863] (-) TimerEvent: {}
+[60.740637] (-) TimerEvent: {}
+[60.831694] (antidrone_turret) JobEnded: {'identifier': 'antidrone_turret', 'rc': 0}
+[60.839896] (-) EventReactorShutdown: {}

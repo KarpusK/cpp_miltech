@@ -1,0 +1,81 @@
+[0.291s] Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.371s] UpdateCTestConfiguration  from :/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/CTestConfiguration.ini
+[0.373s] Parse Config file:/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/CTestConfiguration.ini
+[0.375s]    Site: LenovoBobik
+[0.376s]    Build name: (empty)
+[0.378s]  Add coverage exclude regular expressions.
+[0.382s] Create new tag: 20260726-0801 - Experimental
+[0.383s] UpdateCTestConfiguration  from :/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/CTestConfiguration.ini
+[0.385s] Parse Config file:/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/CTestConfiguration.ini
+[0.387s] Test project /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret
+[0.389s] Constructing a list of tests
+[0.404s] Done constructing a list of tests
+[0.405s] Updating test list for fixtures
+[0.407s] Added 0 tests to meet fixture requirements
+[0.408s] Checking test dependency graph...
+[0.409s] Checking test dependency graph end
+[0.411s] test 1
+[0.413s]     Start 1: provided_logic_test
+[0.415s] 
+[0.416s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/test_results/antidrone_turret/provided_logic_test.gtest.xml" "--package-name" "antidrone_turret" "--output-file" "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/ament_cmake_gtest/provided_logic_test.txt" "--command" "/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/provided_logic_test" "--gtest_output=xml:/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/test_results/antidrone_turret/provided_logic_test.gtest.xml"
+[0.418s] 1: Test timeout computed to be: 60
+[0.636s] 1: -- run_test.py: invoking following command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret':
+[0.637s] 1:  - /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/provided_logic_test --gtest_output=xml:/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/test_results/antidrone_turret/provided_logic_test.gtest.xml
+[0.665s] 1: Running main() from /opt/ros/humble/src/gtest_vendor/src/gtest_main.cc
+[0.667s] 1: [==========] Running 14 tests from 4 test suites.
+[0.668s] 1: [----------] Global test environment set-up.
+[0.670s] 1: [----------] 4 tests from TargetSequenceTest
+[0.671s] 1: [ RUN      ] TargetSequenceTest.DefaultSamplesMatchHomeworkScenario
+[0.673s] 1: [       OK ] TargetSequenceTest.DefaultSamplesMatchHomeworkScenario (0 ms)
+[0.674s] 1: [ RUN      ] TargetSequenceTest.StopsWhenRepeatIsDisabled
+[0.676s] 1: [       OK ] TargetSequenceTest.StopsWhenRepeatIsDisabled (0 ms)
+[0.677s] 1: [ RUN      ] TargetSequenceTest.WrapsWhenRepeatIsEnabled
+[0.679s] 1: [       OK ] TargetSequenceTest.WrapsWhenRepeatIsEnabled (0 ms)
+[0.681s] 1: [ RUN      ] TargetSequenceTest.SkipMovesToNextVisibleSegment
+[0.682s] 1: [       OK ] TargetSequenceTest.SkipMovesToNextVisibleSegment (0 ms)
+[0.684s] 1: [----------] 4 tests from TargetSequenceTest (0 ms total)
+[0.685s] 1: 
+[0.686s] 1: [----------] 2 tests from TargetTrackSimulationTest
+[0.688s] 1: [ RUN      ] TargetTrackSimulationTest.AcceptedTriggerSkipsCurrentDrone
+[0.689s] 1: [       OK ] TargetTrackSimulationTest.AcceptedTriggerSkipsCurrentDrone (0 ms)
+[0.690s] 1: [ RUN      ] TargetTrackSimulationTest.ReachedProtectedZoneWhileReloadingSkipsCurrentDrone
+[0.692s] 1: [       OK ] TargetTrackSimulationTest.ReachedProtectedZoneWhileReloadingSkipsCurrentDrone (0 ms)
+[0.694s] 1: [----------] 2 tests from TargetTrackSimulationTest (0 ms total)
+[0.696s] 1: 
+[0.697s] 1: [----------] 4 tests from TargetTrackLoaderTest
+[0.699s] 1: [ RUN      ] TargetTrackLoaderTest.LoadsCsvRowsAndSkipsCommentsAndHeader
+[0.700s] 1: [       OK ] TargetTrackLoaderTest.LoadsCsvRowsAndSkipsCommentsAndHeader (0 ms)
+[0.702s] 1: [ RUN      ] TargetTrackLoaderTest.ReportsInvalidRows
+[0.704s] 1: [       OK ] TargetTrackLoaderTest.ReportsInvalidRows (0 ms)
+[0.705s] 1: [ RUN      ] TargetTrackLoaderTest.LoadsAllProvidedTracks
+[0.707s] 1: [       OK ] TargetTrackLoaderTest.LoadsAllProvidedTracks (7 ms)
+[0.709s] 1: [ RUN      ] TargetTrackLoaderTest.LoadsDefaultTracksAsOneSequenceWithGaps
+[0.711s] 1: [       OK ] TargetTrackLoaderTest.LoadsDefaultTracksAsOneSequenceWithGaps (6 ms)
+[0.713s] 1: [----------] 4 tests from TargetTrackLoaderTest (13 ms total)
+[0.714s] 1: 
+[0.716s] 1: [----------] 4 tests from ActuatorModelTest
+[0.717s] 1: [ RUN      ] ActuatorModelTest.StartsReady
+[0.718s] 1: [       OK ] ActuatorModelTest.StartsReady (0 ms)
+[0.720s] 1: [ RUN      ] ActuatorModelTest.AcceptedTriggerMovesToReloading
+[0.721s] 1: [       OK ] ActuatorModelTest.AcceptedTriggerMovesToReloading (0 ms)
+[0.723s] 1: [ RUN      ] ActuatorModelTest.RejectsTriggerWhileReloading
+[0.724s] 1: [       OK ] ActuatorModelTest.RejectsTriggerWhileReloading (0 ms)
+[0.726s] 1: [ RUN      ] ActuatorModelTest.MarkReadyAllowsNextTrigger
+[0.728s] 1: [       OK ] ActuatorModelTest.MarkReadyAllowsNextTrigger (0 ms)
+[0.729s] 1: [----------] 4 tests from ActuatorModelTest (0 ms total)
+[0.731s] 1: 
+[0.732s] 1: [----------] Global test environment tear-down
+[0.734s] 1: [==========] 14 tests from 4 test suites ran. (13 ms total)
+[0.735s] 1: [  PASSED  ] 14 tests.
+[0.737s] 1: -- run_test.py: return code 0
+[0.739s] 1: -- run_test.py: inject classname prefix into gtest result file '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/test_results/antidrone_turret/provided_logic_test.gtest.xml'
+[0.742s] 1: -- run_test.py: verify result file '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret/test_results/antidrone_turret/provided_logic_test.gtest.xml'
+[0.743s] 1/1 Test #1: provided_logic_test ..............   Passed    0.31 sec
+[0.745s] 
+[0.746s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.747s] 
+[0.749s] Label Time Summary:
+[0.750s] gtest    =   0.31 sec*proc (1 test)
+[0.751s] 
+[0.752s] Total Test time (real) =   0.34 sec
+[0.753s] Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/src/antidrone_turret/build/antidrone_turret' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
