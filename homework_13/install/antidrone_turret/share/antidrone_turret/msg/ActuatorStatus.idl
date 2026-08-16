@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from antidrone_turret/msg/ActuatorStatus.msg
+// generated code does not contain a copyright notice
+
+
+module antidrone_turret {
+  module msg {
+    module ActuatorStatus_Constants {
+      const uint8 READY = 0;
+      const uint8 RELOADING = 1;
+    };
+    struct ActuatorStatus {
+      uint8 state;
+
+      uint32 trigger_count;
+    };
+  };
+};

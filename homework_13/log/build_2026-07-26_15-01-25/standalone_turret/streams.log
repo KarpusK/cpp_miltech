@@ -1,0 +1,16 @@
+[0.069s] Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret': /usr/bin/cmake /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/logic_without_rclcpp -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/install/standalone_turret
+[0.366s] -- The CXX compiler identification is GNU 11.4.0
+[0.473s] -- Detecting CXX compiler ABI info
+[0.974s] -- Detecting CXX compiler ABI info - done
+[1.004s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.007s] -- Detecting CXX compile features
+[1.009s] -- Detecting CXX compile features - done
+[1.057s] -- Configuring done
+[1.179s] -- Generating done
+[1.339s] -- Build files have been written to: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret
+[1.341s] Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret' returned '0': /usr/bin/cmake /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/logic_without_rclcpp -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/install/standalone_turret
+[1.349s] Invoking command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret': /usr/bin/cmake --build /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret -- -j12 -l12
+[1.476s] [ 50%] [32mBuilding CXX object CMakeFiles/standalone_turret.dir/src/main.cpp.o[0m
+[3.145s] [100%] [32m[1mLinking CXX executable standalone_turret[0m
+[3.471s] [100%] Built target standalone_turret
+[3.496s] Invoked command in '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret' returned '0': /usr/bin/cmake --build /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret -- -j12 -l12

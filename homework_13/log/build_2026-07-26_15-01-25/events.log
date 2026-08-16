@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000560] (antidrone_turret) JobQueued: {'identifier': 'antidrone_turret', 'dependencies': OrderedDict()}
+[0.001013] (standalone_turret) JobQueued: {'identifier': 'standalone_turret', 'dependencies': OrderedDict()}
+[0.001506] (antidrone_turret) JobStarted: {'identifier': 'antidrone_turret'}
+[0.012679] (standalone_turret) JobStarted: {'identifier': 'standalone_turret'}
+[0.024602] (antidrone_turret) JobProgress: {'identifier': 'antidrone_turret', 'progress': 'cmake'}
+[0.039467] (antidrone_turret) JobProgress: {'identifier': 'antidrone_turret', 'progress': 'build'}
+[0.043243] (antidrone_turret) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/antidrone_turret', '--', '-j12', '-l12'], 'cwd': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/antidrone_turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karpus'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/karpus'), ('OLDPWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karpus'), ('NAME', 'LenovoBobik'), ('WSL_INTEROP', '/run/WSL/491_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/nikig/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nikig/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/antidrone_turret'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054261] (standalone_turret) JobProgress: {'identifier': 'standalone_turret', 'progress': 'cmake'}
+[0.075062] (standalone_turret) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/logic_without_rclcpp', '-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/install/standalone_turret'], 'cwd': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karpus'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/karpus'), ('OLDPWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karpus'), ('NAME', 'LenovoBobik'), ('WSL_INTEROP', '/run/WSL/491_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/nikig/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nikig/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.098916] (-) TimerEvent: {}
+[0.199620] (-) TimerEvent: {}
+[0.282500] (antidrone_turret) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.299779] (-) TimerEvent: {}
+[0.378482] (standalone_turret) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.399886] (-) TimerEvent: {}
+[0.485192] (standalone_turret) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500050] (-) TimerEvent: {}
+[0.600843] (-) TimerEvent: {}
+[0.619467] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.625016] (antidrone_turret) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700980] (-) TimerEvent: {}
+[0.716402] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801097] (-) TimerEvent: {}
+[0.813044] (antidrone_turret) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.819895] (antidrone_turret) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901281] (-) TimerEvent: {}
+[0.985784] (standalone_turret) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.001418] (-) TimerEvent: {}
+[1.015400] (standalone_turret) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.018441] (standalone_turret) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.020555] (standalone_turret) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.067818] (standalone_turret) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.101581] (-) TimerEvent: {}
+[1.190197] (standalone_turret) StdoutLine: {'line': b'-- Generating done\n'}
+[1.201754] (-) TimerEvent: {}
+[1.303071] (-) TimerEvent: {}
+[1.350803] (standalone_turret) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret\n'}
+[1.353453] (standalone_turret) CommandEnded: {'returncode': 0}
+[1.357400] (standalone_turret) JobProgress: {'identifier': 'standalone_turret', 'progress': 'build'}
+[1.360729] (standalone_turret) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret', '--', '-j12', '-l12'], 'cwd': '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'karpus'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/zenoh_cpp_vendor/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/karpus'), ('OLDPWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'karpus'), ('NAME', 'LenovoBobik'), ('WSL_INTEROP', '/run/WSL/491_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/nikig/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nikig/AppData/Local/Programs/Microsoft VS Code/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/Users/nikig/Projects/cpp_miltech/homework_13/build/standalone_turret'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[1.403209] (-) TimerEvent: {}
+[1.487268] (standalone_turret) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/standalone_turret.dir/src/main.cpp.o\x1b[0m\n'}
+[1.503346] (-) TimerEvent: {}
+[1.604215] (-) TimerEvent: {}
+[1.704905] (-) TimerEvent: {}
+[1.806143] (-) TimerEvent: {}
+[1.907318] (-) TimerEvent: {}
+[2.008246] (-) TimerEvent: {}
+[2.109239] (-) TimerEvent: {}
+[2.210056] (-) TimerEvent: {}
+[2.310854] (-) TimerEvent: {}
+[2.411650] (-) TimerEvent: {}
+[2.512415] (-) TimerEvent: {}
+[2.613145] (-) TimerEvent: {}
+[2.713908] (-) TimerEvent: {}
+[2.762053] (antidrone_turret) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.814045] (-) TimerEvent: {}
+[2.914971] (-) TimerEvent: {}
+[3.015738] (-) TimerEvent: {}
+[3.116494] (-) TimerEvent: {}
+[3.156584] (standalone_turret) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable standalone_turret\x1b[0m\n'}
+[3.216627] (-) TimerEvent: {}
+[3.317324] (-) TimerEvent: {}
+[3.418003] (-) TimerEvent: {}
+[3.482597] (standalone_turret) StdoutLine: {'line': b'[100%] Built target standalone_turret\n'}
+[3.508112] (standalone_turret) CommandEnded: {'returncode': 0}
+[3.518225] (-) TimerEvent: {}
+[3.623693] (-) TimerEvent: {}
+[3.650694] (standalone_turret) JobEnded: {'identifier': 'standalone_turret', 'rc': 0}
+[3.723871] (-) TimerEvent: {}
+[3.756399] (antidrone_turret) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.824006] (-) TimerEvent: {}
+[3.924868] (-) TimerEvent: {}
+[4.026029] (-) TimerEvent: {}
+[4.126991] (-) TimerEvent: {}
+[4.227901] (-) TimerEvent: {}
+[4.328867] (-) TimerEvent: {}
+[4.429729] (-) TimerEvent: {}
+[4.530622] (-) TimerEvent: {}
+[4.631344] (-) TimerEvent: {}
+[4.732134] (-) TimerEvent: {}
+[4.825532] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.837175] (-) TimerEvent: {}
+[4.937868] (-) TimerEvent: {}
+[5.038621] (-) TimerEvent: {}
+[5.139449] (-) TimerEvent: {}
+[5.240468] (-) TimerEvent: {}
+[5.341211] (-) TimerEvent: {}
+[5.442331] (-) TimerEvent: {}
+[5.543289] (-) TimerEvent: {}
+[5.644133] (-) TimerEvent: {}
+[5.744897] (-) TimerEvent: {}
+[5.845770] (-) TimerEvent: {}
+[5.946580] (-) TimerEvent: {}
+[6.047466] (-) TimerEvent: {}
+[6.148347] (-) TimerEvent: {}
+[6.249073] (-) TimerEvent: {}
+[6.305763] (antidrone_turret) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.334613] (antidrone_turret) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.349184] (-) TimerEvent: {}
+[6.355570] (antidrone_turret) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.357740] (antidrone_turret) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.359498] (antidrone_turret) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.449313] (-) TimerEvent: {}
+[6.550053] (-) TimerEvent: {}
+[6.650886] (-) TimerEvent: {}
+[6.751710] (-) TimerEvent: {}
+[6.852484] (-) TimerEvent: {}
+[6.953225] (-) TimerEvent: {}
+[7.053942] (-) TimerEvent: {}
+[7.154722] (-) TimerEvent: {}
+[7.255481] (-) TimerEvent: {}
+[7.356390] (-) TimerEvent: {}
+[7.450025] (antidrone_turret) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[7.456477] (-) TimerEvent: {}
+[7.557091] (-) TimerEvent: {}
+[7.657771] (-) TimerEvent: {}
+[7.758654] (-) TimerEvent: {}
+[7.859512] (-) TimerEvent: {}
+[7.911825] (antidrone_turret) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.959675] (-) TimerEvent: {}
+[8.008228] (antidrone_turret) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_executable):\n'}
+[8.010192] (antidrone_turret) StderrLine: {'line': b'  Cannot find source file:\n'}
+[8.011827] (antidrone_turret) StderrLine: {'line': b'\n'}
+[8.013123] (antidrone_turret) StderrLine: {'line': b'    src/main.cpp\n'}
+[8.014770] (antidrone_turret) StderrLine: {'line': b'\n'}
+[8.016288] (antidrone_turret) StderrLine: {'line': b'\x1b[0m\n'}
+[8.017807] (antidrone_turret) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[8.019195] (antidrone_turret) StderrLine: {'line': b'  Cannot find source file:\n'}
+[8.020661] (antidrone_turret) StderrLine: {'line': b'\n'}
+[8.022092] (antidrone_turret) StderrLine: {'line': b'    src/target_decision.cpp\n'}
+[8.023478] (antidrone_turret) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.024890] (antidrone_turret) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[8.026316] (antidrone_turret) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[8.027794] (antidrone_turret) StderrLine: {'line': b'  CMakeLists.txt:64 (ament_add_gtest)\n'}
+[8.029186] (antidrone_turret) StderrLine: {'line': b'\n'}
+[8.030639] (antidrone_turret) StderrLine: {'line': b'\x1b[0m\n'}
+[8.059714] (-) TimerEvent: {}
+[8.074972] (antidrone_turret) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:31 (add_executable):\n'}
+[8.077660] (antidrone_turret) StderrLine: {'line': b'  No SOURCES given to target: turret_standalone\n'}
+[8.080048] (antidrone_turret) StderrLine: {'line': b'\n'}
+[8.081991] (antidrone_turret) StderrLine: {'line': b'\x1b[0m\n'}
+[8.083758] (antidrone_turret) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[8.085988] (antidrone_turret) StderrLine: {'line': b'  No SOURCES given to target: target_decision_test\n'}
+[8.087753] (antidrone_turret) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.089539] (antidrone_turret) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[8.091418] (antidrone_turret) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[8.093732] (antidrone_turret) StderrLine: {'line': b'  CMakeLists.txt:64 (ament_add_gtest)\n'}
+[8.095977] (antidrone_turret) StderrLine: {'line': b'\n'}
+[8.097774] (antidrone_turret) StderrLine: {'line': b'\x1b[0m\n'}
+[8.099669] (antidrone_turret) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[8.101287] (antidrone_turret) StderrLine: {'line': b'gmake: *** [Makefile:2115: cmake_check_build_system] Error 1\n'}
+[8.102958] (antidrone_turret) CommandEnded: {'returncode': 2}
+[8.159887] (-) TimerEvent: {}
+[8.260805] (-) TimerEvent: {}
+[8.361766] (-) TimerEvent: {}
+[8.462537] (-) TimerEvent: {}
+[8.563359] (-) TimerEvent: {}
+[8.590799] (antidrone_turret) JobEnded: {'identifier': 'antidrone_turret', 'rc': 2}
+[8.602818] (-) EventReactorShutdown: {}
