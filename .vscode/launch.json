@@ -92,11 +92,11 @@
     //     "preLaunchTask": "quality"   
     // },
     {
-        // Локальний debug стартера ДЗ 9. preLaunchTask збирає debug preset.
-      "name": "Debug homework_09: drone_fsm_cli",
+        // Локальний debug стартера ДЗ 10. preLaunchTask збирає debug preset.
+      "name": "Debug homework_10: drone_fsm_cli",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/debug/homework_09/drone_fsm_cli",
+      "program": "${workspaceFolder}/build/debug/homework_10/drone_fsm_cli",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
