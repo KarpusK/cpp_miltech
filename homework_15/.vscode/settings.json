@@ -1,0 +1,6 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+    },
+    "cmake.generator": "Visual Studio 18 2026"
+}
